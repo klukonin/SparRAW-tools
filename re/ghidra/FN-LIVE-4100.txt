@@ -1,0 +1,307 @@
+# Функции fw_code, исполнение которых ПОДТВЕРЖДЕНО живым логом прошивки.
+# Источник: 481 снятое кольцо лога за все опыты; строка считается наблюдённой
+# по точному смещению в таблице, а не по тексту.
+0x8c1b44  fwlog_action_CID_action_x                      stream_mgr.cpp
+0x8c1df0  conn_mgr::activate_conn                        conn_mgr.cpp
+0x8c22e4  add_discovery_bcon                             tx_bcon.cpp
+0x8c23b8  FWQ_TX_AVAILABILITY::add_packet                fwq_tx_availability.cpp
+0x8c25e4  conn_mgr::add_to_rinking_list                  conn_mgr.cpp
+0x8c2dc8  mem_pool::allocate                             mem_pool.cpp
+0x8c2f84  conn_mgr::allocate_cid_db_element              
+0x8c3160  conn_mgr::apply_default_link_maintain_cfg      mid.cpp
+0x8c33f4  assoc_ready_check_trig                         mid.cpp
+0x8c36e0  conn_mgr::awake_peer_ntf                       
+0x8c3a02  fwlog_VRING_d_is_waiting_for_TX_MACQ_delete_no 
+0x8c3ad4  fwlog_Bad_instruction_attempt_to               
+0x8c3c14  fwlog_Wait_start_b_idx_tail_idx                
+0x8c3c98  bcn_tx_init_bi_cfg                             
+0x8c3d2c  bcn_tx_init_ss_params                          lmac_if.cpp
+0x8c3fdc  fwlog_BIND_Vring_Index_Vring                   sm_pring_connectivity.cpp
+0x8c4298  bss_bi_ctrl_PCP_ready_set                      
+0x8c438c  fwlog_FINAL_Result_m_capinfo_BSS               
+0x8c4594  bss_set_mode                                   
+0x8c4bc0  fwlog_rm_main_sm_call_cb_Handle_0x_x_CB_0x_x_N rm_main_sm.cpp
+0x8c5034  fwlog_Switching_to_channel                     
+0x8c5180  fwlog_calib_engine_sm_check_correction_needed_ calib_engine.cpp
+0x8c52b0  wmi_handler_get_rf_sector_params::check_inputs_valid wmi_handlers.cpp
+0x8c5400  wmi_handler_get_selected_rf_sector_index::check_inputs_valid wmi_handlers.cpp
+0x8c548c  wmi_handler_set_selected_rf_sector_index::check_inputs_valid wmi_handlers.cpp
+0x8c5598  fwlog_calib_bb_gain_dc_check_online_estimation 
+0x8c5838  l2_mgr::chk_sys_idle                           
+0x8c5c0c  sta_psc_sm::m_psc_resp_rx_wb_timeout_event     
+0x8c5c74  sta_psc_sm::m_psc_req_tx_wb_timeout_event      
+0x8c5ec4  calib_silent_rssi_sparrow                      
+0x8c5f18  marlon_r_if_class::config_brp_sectors          marlon_r_if.cpp
+0x8c6048  marlon_r_if_class::config_channel              marlon_r_if.cpp
+0x8c625c  lm_main_sm::config_lmac_bf_sm                  
+0x8c62a4  maintain_sm::config_mcs_en_vec                 
+0x8c6c70  fwlog_mem_pool_cpp                             mem_pool.cpp
+0x8c6dc8  scan_mngr::dband_beacon_ind                    
+0x8c71b8  deep_sleep_enter                               
+0x8c7578  tx_bcon::del_bcon                              
+0x8c774e  fwlog_STREAM_MGR_TX_MACQ_d_REMOVED             
+0x8c7858  fwlog_Remove_from_VR_SCHDLR_V                  
+0x8c7884  fwlog_STARTED_DELETE_BCAST_VRING               stream_mgr.cpp
+0x8c7950  lm_if::disable_link_loss_monitoring            vring_schdlr.cpp
+0x8c7990  PS_CONNECTION::disassoc_ntf                    vring_schdlr.cpp
+0x8c7b0c  vring_schd::disconnect_notify                  vring_schdlr.cpp
+0x8c7c3c  fwlog_MID_Disconnection_cmd_for                
+0x8c7e98  fwlog_DPAL_CPL_TO_Event_cpl_valid_vector_0x_08 
+0x8c7f90  fwlog_02x_02x                                  
+0x8c85d2  fwlog_basic_calib_sparrow_estimation_alg_corre basic_calib.cpp
+0x8c86dc  fwlog_class_calib_lo_power_check_online_estima 
+0x8c88d4  fill_statistics_to_host                        
+0x8c8978  agc_start_index                                
+0x8c8bf4  brd_if_multi_array::get_chunk                  brd_if_multi_array.cpp
+0x8c8ebc  TX_CTRL_API::flush_connection                  tx_api.cpp
+0x8c9058  TX_API::flush_pending_peer_pm_connection       
+0x8c9220  fr_clr_mdm_crc_statistics                      
+0x8c9268  fwlog_mem_pool_cpp                             mem_pool.cpp
+0x8c9304  conn_mgr::free_cid_db_element                  conn_mgr.cpp
+0x8c94c4  TX_API::free_memory                            tx_api.h
+0x8c95e8  TX_INTERNAL_API::connection                    
+0x8c97fc  fwlog_MORDI_TAKE_m_dmg_bcon_additional_ies     mid.cpp
+0x8c9a84  brd_if_multi_array::get_board_file_format_version 
+0x8c9c60  brd_if_multi_array::get_chunk_in_data_only_format brd_if_multi_array.cpp
+0x8ca3c2  fwlog_rm_main_sm_get_next_request_Next_request rm_main_sm.cpp
+0x8caeb4  bad_beacons_detector::handle_bcons_info        wmi_handlers.cpp
+0x8cb2c0  TX_API::handle_completed_packets               tx_api.h
+0x8cb6d8  fwlog_HOST_EVENT_WMI_FW_READY_EVENTID          
+0x8cba10  live_DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x hw_drivers_abif.c
+0x8ce15c  fwlog_HWD_MAC_Enable_Multi                     
+0x8ce464  fwlog_SYSTEM                                   
+0x8ce578  hwd_pcie_exit_l1                               hw_drivers_pcie.c
+0x8ce7d8  fwlog_PCIE_EP_under_Serdes                     hw_drivers_pcie.c
+0x8ce9ac  hwd_pcie_l1_sub_timing_config                  hw_drivers_pcie.c
+0x8ceab8  fwlog_Sparrow_PCIe_L1SS_Support                hw_drivers_pcie.c
+0x8ceb80  fwlog_PCIE_EP_under_Serdes                     hw_drivers_pcie.c
+0x8cedcc  fwlog_Clear_and_mask_PCIe                      
+0x8ceed4  fwlog_Not_Understood_BUG_5661_WA_hwd_phy_dbg_clk_enabl hw_drivers_phy.c
+0x8ceff0  hwd_phy_init                                   hw_drivers_phy.c
+0x8cf07c  FUN_ram_008cf07c                               hw_drivers_phy.c
+0x8cf1b8  live_DO_WHILE_WITH_MAX_ITER_OCCUR_8cf1b8       hw_drivers_phy.c
+0x8cf2a4  FUN_ram_008cf2a4                               hw_drivers_phy.c
+0x8cf4c8  FUN_ram_008cf4c8                               hw_drivers_phy.c
+0x8cf4fc  FUN_ram_008cf4fc                               hw_drivers_phy.c
+0x8cf52c  FUN_ram_008cf52c                               hw_drivers_phy.c
+0x8cf588  FUN_ram_008cf588                               hw_drivers_phy.c
+0x8cf664  FUN_ram_008cf664                               hw_drivers_phy.c
+0x8cf6f8  FUN_ram_008cf6f8                               hw_drivers_phy.c
+0x8cf74c  FUN_ram_008cf74c                               hw_drivers_phy.c
+0x8cf8e8  FUN_ram_008cf8e8                               hw_drivers_phy.c
+0x8cfa04  FUN_ram_008cfa04                               hw_drivers_phy.c
+0x8cfa40  FUN_ram_008cfa40                               hw_drivers_phy.c
+0x8cfaa4  FUN_ram_008cfaa4                               hw_drivers_phy.c
+0x8cfad8  FUN_ram_008cfad8                               hw_drivers_phy.c
+0x8cfb40  fwlog_LINK_STATS_PHY_INA_SYNC_CP_PHY_INA_SYNC_DP hw_drivers_phy.c
+0x8cfbc8  live_DO_WHILE_WITH_MAX_ITER_OCCUR_8cfbc8       hw_drivers_phy.c
+0x8cfca8  FUN_ram_008cfca8                               hw_drivers_phy.c
+0x8cfdc0  FUN_ram_008cfdc0                               hw_drivers_phy.c
+0x8cfe5c  FUN_ram_008cfe5c                               hw_drivers_phy.c
+0x8cfef4  hwd_PHY_STORE_TXRX_SWAP_IQ                     hw_drivers_phy.c
+0x8cff30  FUN_ram_008cff30                               hw_drivers_phy.c
+0x8d006c  FUN_ram_008d006c                               hw_drivers_phy.c
+0x8d00f0  FUN_ram_008d00f0                               hw_drivers_phy.c
+0x8d0168  FUN_ram_008d0168                               hw_drivers_phy.c
+0x8d01e8  FUN_ram_008d01e8                               hw_drivers_phy.c
+0x8d02ac  FUN_ram_008d02ac                               hw_drivers_phy.c
+0x8d0e80  hwd_rfc_tx_power_cfg                           hw_drivers_rfc.c
+0x8d13dc  fwlog_GPIO0_x_GPIO1_x                          
+0x8d3bec  fwlog_hw_flows_vga_dc_calibration_c            hw_flows_vga_dc_calibration.c
+0x8d46c0  fwlog_RF_RESET_DONE                            
+0x8d4b3c  fwlog_hwm_ANALOG_CHANNEL_SWITCH_channel_num    
+0x8d580c  POWER_MNGR::init                               
+0x8d5ec4  brd_if_multi_array::init                       brd_if_multi_array.cpp
+0x8d5f68  fwlog_FWQ_TX_AVAILABILITY_init                 
+0x8d5f8c  bad_beacons_detector::init                     bad_beacons_detector.cpp
+0x8d6028  fwlog_pcie_device_power_if_init                
+0x8d60a4  ka_necessity_detector::init                    ka_necessity_detector.cpp
+0x8d6140  tx_ppdu_ageing_timeout_detector::init          tx_ppdu_ageing_timeout_detector.cpp
+0x8d66d8  marlon_r_if_class::init_board_file_interface   
+0x8d6a1c  fwlog_Inject_event_to_Next                     basic_sm.cpp
+0x8d6afc  fwlog_ul_stream_cpp                            ul_stream.cpp
+0x8d6b80  fwlog_psc_if_start_psc                         
+0x8d6c70  fwlog_sta_psc_sm_IDLE                          
+0x8d6df8  fwlog_Operational_MBOX_init                    operational_if.cpp
+0x8d6ea8  fwlog_Debug_MBOX_init                          
+0x8d75dc  rm_main_sm::kick_channel_switch_sm             
+0x8d7838  mid::link_acquisition_action                   
+0x8d79cc  conn_mgr::link_down_evt                        
+0x8d7ae0  SW_TX_MGMT_API::link_up_evt                    
+0x8d7ca0  fwlog_conn_main_sm_linkup_ntf_status_d_CID_d   
+0x8d8078  fwlog_AWAKE_PEERS_EVENT_awake                  lmac_if.cpp
+0x8d80dc  fwlog_Send_CMD_BCON_MGT_flags_pcp_assoc_ready  lmac_if.cpp
+0x8d8218  fwlog_NNL_CID                                  lmac_if.cpp
+0x8d84a8  lmac_if_discovery_mode_cfg_handler             lmac_if.cpp
+0x8d85e4  lmac_if_keep_alive_trigger_handler             lmac_if.cpp
+0x8d865c  fwlog_BTI_start_time_0x                        lmac_if.cpp
+0x8d8824  fwlog_Sending_CMD_PHY_INA_DET_CFG_ad_out_of_txop_en_ad lmac_if.cpp
+0x8d8a7c  fwlog_Sending_CMD_SELECTIVE_NEIGHBOR_CFG_selective_det lmac_if.cpp
+0x8d8bf4  fwlog_lmac_if_cpp                              lmac_if.cpp
+0x8d8cb0  lmac_if_trigger_bf                             lmac_if.cpp
+0x8d8f80  marlon_r_if_class::load_brd_parameters_section 
+0x8d90a8  marlon_r_if_class::load_brd_rf_cfg_section     
+0x8d9314  fwlog_radio_manager_lock_secondary_m_allocated radio_manager.cpp
+0x8d938c  RADIO_MGR::lock_secondary                      
+0x8d97a8  fwlog_connection_ID_out_of                     
+0x8d9cc4  map_tx_sectors                                 brd_if_multi_array.cpp
+0x8da098  ies_block::merge                               app_ies.cpp
+0x8da490  mlme_notify                                    mlme_sm.cpp
+0x8da54e  fwlog_HOST_CMD_WMI_GET_SELECTED_RF_SECTOR_INDE host_if.cpp
+0x8dae82  fwlog_Ucode_EVENT_UCODE_READY_type_0x0_x_curr_ 
+0x8db1fc  notify_conn_flush_done                         
+0x8dc264  live_DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8dc264 
+0x8dc660  fwlog_PCP_Stop_primary_channel                 
+0x8dcada  fwlog_ba_sm_prepare_ba_td_Vring_Index_d_Pring_ 
+0x8dcc60  brd_if_multi_array::brd_header_u               
+0x8dcdd8  fwlog_NNL_atim_rx                              
+0x8dce44  fwlog_About_to_print_ies                       
+0x8dcef8  fwlog_NNL_cid                                  
+0x8dcf7c  fwlog_NNL_cid                                  
+0x8dd0b4  vring_schd::prohibit_cids                      
+0x8dd268  fwlog_ps_assoc_mgr_set_m_awake_tsf_64_0x_08x_0 
+0x8dd2ec  fwlog_ps_nonassoc_mgr_ps_evt_handler_ps_evt_d_ 
+0x8dd500  fwlog_POWER_MNGR_Number_of_connection          
+0x8dd554  PS_CONNECTION::psc_complete                    ps_connection.cpp
+0x8dd7c8  sta_psc_sm::psc_done_sm                        
+0x8dd840  fwlog_sta_psc_sm_psc_req_tx_complete_success_d sta_psc_sm.cpp
+0x8dd8a4  PS_CONNECTION_MGR::psc_req_tx_wb_cb            
+0x8ddb0e  fwlog_Sending_PSC_REQ_bi_start_time_0x_x_numbe 
+0x8ddc7c  fwlog_TEMPERATURE_SERVICE_radio_locked_cb_m_se 
+0x8ddfc0  fwlog_STREAM_MGR_ready_for_modify_vring_stoppe stream_mgr.cpp
+0x8de304  FWQ_TX_AVAILABILITY::remove_packet             fwq_tx_availability.cpp
+0x8de468  STREAM_MGR                                     
+0x8df014  fwlog_RX_MGMT_SRVS_Distribute                  
+0x8df11c  fwlog_RX_SRVS_pkt_for                          rx_pkt_srvs.cpp
+0x8df33a  fwlog_HOST_EVENT_WMI_RX_MGMT_PACKET_EVENTID_Pr discovery.cpp
+0x8dfe90  SDP::sdp_init__2                               SDP_GPIO_srvs.c
+0x8dffd8  fwlog_HW_personality_is_DEVICE                 
+0x8e02a2  fwlog_rm_main_sm_secondary_handle_free_Next_re 
+0x8e038c  fwlog_rm_main_sm_secondary_tune_done_callback_ rm_main_sm.cpp
+0x8e061c  fwlog_HOST_EVENT_WMI_BA_STATUS_EVENTID_for     
+0x8e0694  send_cmd2_lmac                                 lmac_if.cpp
+0x8e0748  TX_API::send_dband_bcon                        tx_api.h
+0x8e08ca  fwlog_low_sme_send_evt2sw_type_0x_x_continue2s 
+0x8e0a28  fwq_tx::send_next                              
+0x8e0c74  TX_API::send_packet                            tx_api.cpp
+0x8e0e3c  fwlog_Sending_PSC_REQ_bi_start_time            
+0x8e0f04  sta_psc_sm::send_psc_req_flow_sm               sta_psc_sm.cpp
+0x8e10d8  fwlog_HOST_EVENT_WMI_TEMP_SENSE_DONE_EVENTID_Baseband 
+0x8e1144  wmi_handler_get_rf_sector_params::set          
+0x8e1288  fwlog_HOST_EVENT_WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE mid.cpp
+0x8e12f4  fwlog_HOST_EVENT_WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE mid.cpp
+0x8e14bc  set_app_ie                                     mid.cpp
+0x8e162c  lm_if::set_cid                                 
+0x8e275c  fwlog_conn_main_sm_start_disc_Starting_disconn 
+0x8e28ec  ka_necessity_detector::start_monitoring        ka_necessity_detector.cpp
+0x8e2ae8  fwlog_LINK_STATS_TX_GOODPUT_RX_GOODPUT_PER     link_stats_sm.cpp
+0x8e2ed0  lm_if::stop_link_loss_monitoring               
+0x8e2f70  fwlog_bad_beacons_detector_stop_monitoring     
+0x8e2ff2  fwlog_VR_SCHDLR_received_STOP_command_for_V_ri vring_schdlr.cpp
+0x8e30cc  STREAM_MGR__2                                  
+0x8e3148  fwlog_VRING_d_received_TX_MACQ_delete_notifica 
+0x8e32f4  fwlog_switch_2_secondary_pop_request_for_CB_0x 
+0x8e3338  PS_CFG_SCHEME::switch_active_ps_profile        
+0x8e3714  POWER_MNGR::system_state_evt_handler           power_management.cpp
+0x8e3a08  L2MGR::system_state_evt_handler                
+0x8e3af0  fwlog_PHY_LOG_curr_tm_d_last_clear_tm_d_durati 
+0x8e3c74  fwlog_ka_necessity_detector_task_Neccesity_for 
+0x8e3ed6  fwlog_tx_ppdu_ageing_timeout_detector_task_Tas 
+0x8e420c  fwlog_Temperature_measurement_command_mode     
+0x8e426c  low_sme::termination_check                     
+0x8e45b0  timer_exp_handler                              
+0x8e4c04  fwlog_TX_MGMT_SRVS_Build                       
+0x8e4c34  fwlog_TX_MGMT_SRVS_Build                       
+0x8e4cbc  tx_mgmt_builder_srvs::tx_mgmt_scan_probe_req   
+0x8e54d8  RADIO_MGR::unlock                              
+0x8e5568  fwlog_RADIO_MGR_unset_primary_channel          
+0x8e5684  vr_obj::update_connected_duration              
+0x8e5918  CALIB_MNGR::update_pcp_ap                      dashboard.cpp
+0x8e70dc  brd_if_multi_array::verify_board_file_format_version 
+0x8e7628  fwlog_l2_mgr_wmi_cmd_handler_get_mgmt_retry_limit 
+0x8e7a24  fwlog_POWER_MNGR_wmi_ps_dev_profile_cfg_cmd    
+0x8e7b18  low_sme::wmi_scan_cmd_handler                  
+0x8e85b0  live_DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8e85b0 hw_drivers_rfc.h
+0x8e89b8  BUILDER_push_dmg_parameters                    
+0x8e8a1c  WBE_DRIVER::pcie_boot_init                     main.c
+0x8e8dbc  conn::abort                                    
+0x8e8f4e  fwlog_channels_switch_sm_action_allocate_radio 
+0x8e8fda  fwlog_channels_switch_sm_action_dwelling_stopp 
+0x8e9008  fwlog_channels_switch_sm_action_pop_ch_and_tun 
+0x8e90f6  fwlog_channels_switch_sm_action_radio_tunned_p 
+0x8e9118  fwlog_channels_switch_sm_action_scan_complete_ 
+0x8e9166  fwlog_channels_switch_sm_action_start_dwelling 
+0x8e9440  fwlog_TODO_install_key_Need_to                 
+0x8e94a4  alloc_dband_info                               
+0x8ea0d4  fwlog_scan_mngr_calculate_passive_scan_info    
+0x8ea182  fwlog_channels_switch_sm_channel_switched_cb   
+0x8ea224  check_rf_boardfile                             
+0x8ea324  scan_mngr::clean_all_lists                     
+0x8ea5a4  scan_mngr::config_dwell_time                   
+0x8ea660  fwlog_L2_Offload_Rx_Decap_trans_type           
+0x8ea86c  scan_mngr::connect                             
+0x8eaff0  fwlog_DISC_SM_spurious_Disassoc_Done_notificat 
+0x8eb04a  fwlog_conn_disc_sm_disassoc_sent_cb_p_conn_is_ 
+0x8eb11c  fwlog_DISCONNECT_flow_started_m_graceful_d     
+0x8eb190  conn::disconnect                               
+0x8eb270  fwlog_L2MGR_CID_disconnect_done                layer2_mgr.cpp
+0x8eb368  fwlog_mlme_sm_disconnect_ev_handle_remove_requ layer2_mgr.cpp
+0x8eb678  discovery_handle_probe_resp                    
+0x8eb86c  fwlog_channels_switch_sm_dwell_timeout_cb_dwel 
+0x8eb9ac  lo_power_gc_ctrl                               
+0x8ebb88  free_dband_info                                
+0x8ebc00  fwlog_FW_date                                  
+0x8ebc58  fwlog_FW_version                               
+0x8ebda8  scan_mngr::handle_abft_bf_result_in_scan       
+0x8ebee4  scan_mngr::handle_link_up_event                scan_mngr.cpp
+0x8ec3e4  fwlog_BASEBAND_Type_is_not                     
+0x8ec45c  fwlog_Identify_RF_Type_device_id               
+0x8ed87c  fwlog_HOST_EVENT_WMI_READY_EVENTID_x1001       
+0x8eda7a  fwlog_l2_mgr_link_up_evt_STATUS_d_CID_d_p_conn wbe_driver.cpp
+0x8edb8c  conn::linkup_ntf                               
+0x8edc94  fwlog_Initializing_uCode_interface             lmac_if.cpp
+0x8ede5c  fwlog_LMAC_READY_driver_is_up_sts              lmac_if.cpp
+0x8ee7fc  fwlog_Send_DISASSOC_request_len                mlme_sm.cpp
+0x8ee90c  fwlog_OTP_params_0_seq_num_pcb_id8             
+0x8eeac0  fwlog_Sparrow_wPCIeR_support_for               
+0x8eef70  l2_mgr::pcp_stop                               
+0x8ef014  pcp_stop                                       
+0x8ef034  scan_mngr::prob_done                           
+0x8ef654  fwlog_probe_req_tx_wb_cb_status_d              
+0x8ef694  scan_mngr::probe_resp_ind                      
+0x8ef702  fwlog_probe_resp_tx_wb_cb_status_d             
+0x8efc0e  fwlog_channels_switch_sm_radio_allocated_cb    
+0x8efd74  discovery::rx_start                            
+0x8efdac  discovery::rx_stop                             
+0x8efe50  fwlog_Boot_Loader_version                      
+0x8efe98  scan_mngr::save_initial_passive_scan_info      
+0x8eff7c  l2_mgr::scan_complete_handle                   
+0x8f0000  scan_mngr::scan_done                           
+0x8f0134  fwlog_Start_scan_ts                            
+0x8f020c  search_scan_elem_in_list                       
+0x8f0380  fwlog_HOST_EVENT_WMI_CONNECT_EVENTID_CID_d_res layer2_mgr.cpp
+0x8f051c  fwlog_HOST_EVENT_WMI_DISCONNECT_EVENTID_wmi    layer2_mgr.cpp
+0x8f07f4  fwlog_HOST_EVENT_WMI_PCP_STOPPED_EVENTID_for   
+0x8f082c  scan_mngr::send_prob_req                       scan_mngr.cpp
+0x8f0908  fwlog_Sending_probe_rsp_len                    tx_probe.cpp
+0x8f0980  fwlog_HOST_EVENT_WMI_SCAN_COMPLETE_EVENTID_status tx_probe.cpp
+0x8f09c4  fwlog_Sending_probe_req_len                    tx_probe.cpp
+0x8f0d18  scan_mngr::sm_dwelling_ended                   
+0x8f0d9c  scan_mngr::sm_ready_for_dwelling               
+0x8f0e04  sort_scan_ch_list                              scan_mngr.cpp
+0x8f1280  fwlog_scan_mngr_start_connection_cb_connect_to scan_mngr.cpp
+0x8f12ca  fwlog_scan_mngr_start_dwell_event_cb           
+0x8f141c  fwlog_L2MGR_MAC_started_ADDR                   
+0x8f1474  scan_mngr::start_scan                          scan_mngr.cpp
+0x8f17d8  WBE_DRIVER::CLOSE                              
+0x8f181c  fwlog_scan_mngr_stop_sm_event_cb               
+0x8f1e78  fwlog_PROBE_REQ_internal_IEs                   
+0x8f1f50  fwlog_PROBE_RESP_header_bytes                  
+0x8f295c  validate_connect                               
+0x8f29dc  l2_mgr::validate_scan                          
+0x8f2acc  wait_for_disconnect                            
+0x8f2cdc  fwlog_HOST_EVENT_WMI_PCP_FACTOR_EVENTID_for    layer2_mgr.cpp
+0x8f2ed0  live_Opening_sniffer_mode                      layer2_mgr.cpp
+0x8f3284  fwlog_Mid_I_m_ROOT                             layer2_mgr.cpp
+0x8f3318  l2_mgr::wmi_cmd_handler_set_ssid               layer2_mgr.cpp
+0x8f3710  l2_mgr::wmi_scan_cmd                           layer2_mgr.cpp

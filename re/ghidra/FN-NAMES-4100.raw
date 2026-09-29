@@ -1,0 +1,932 @@
+FUNCS_WITH_STRINGS 931  NAMED 353
+ROW 0x008c14b4 ?                                                      250   4  0 | WARNING- setting to MAX value (31) due to no change in comLo
+ROW 0x008c15e8 ?                                                      116   1  0 | Awake TSF LED interrupt expired! TSF: 0x%08x:%08x
+ROW 0x008c1b44 ?                                                      188   7  0 | action - CID[%d] action 0x%x, category_code 0x%x 
+ROW 0x008c1d5c ?                                                       78   2  0 | action no ack - action 0x%x, category_code 0x%x 
+ROW 0x008c1dac ?                                                       66   1  0 | vring_schdlr.cpp
+ROW 0x008c1df0 conn_mgr::activate_conn                                 84   2  7 | conn_mgr.cpp
+ROW 0x008c1e44 ?                                                      300   5  0 | vring_schdlr.cpp
+ROW 0x008c1f70 ?                                                       88   2  0 | llist.cpp
+ROW 0x008c1fc4 ?                                                       84   2  0 | llist.cpp
+ROW 0x008c2018 ?                                                      144   2  0 | sorted_llist.cpp
+ROW 0x008c20a4 ?                                                      148   5  0 | llist.cpp
+ROW 0x008c2138 ?                                                       88   1  0 | stream_mgr.cpp
+ROW 0x008c2190 ?                                                      204   3  0 | Update TX Beacon mid %d, send length %d, PCP_assoc_ready %d
+ROW 0x008c225c find_mng::add_bcon                                      76   2  7 | FIND:: <<<<< ADD DMG DISCOVERY BEACOM >>>>>.
+ROW 0x008c22e4 add_discovery_bcon                                     212   2  2 | tx_bcon.cpp
+ROW 0x008c23b8 FWQ_TX_AVAILABILITY::add_packet                        168   4  4 | FWQ_TX_AVAILABILITY::add_packet cid=%d, mcs=%d
+ROW 0x008c2498 add_pbss_dmg_capinfo_list                              208   4  4 | add_pbss_dmg_capinfo_list() AID = %d
+ROW 0x008c2568 ?                                                       80   1  0 | vring_schdlr.cpp
+ROW 0x008c25e4 conn_mgr::add_to_rinking_list                           86   2  7 | conn_mgr::add_to_rinking_list() ADD index CID %d to ranking 
+ROW 0x008c263c STREAM_MGR::ADD                                        304   5  4 | STREAM_MGR::ADD VRING to already added Vring index  %d.
+ROW 0x008c276c ?                                                      218   3  0 | vring_schdlr.cpp
+ROW 0x008c2848 ?                                                      164   3  0 | Initiator ADDBA REQ message - moved on thru Driver.
+ROW 0x008c2944 ?                                                       66   1  0 | stream_mgr.cpp
+ROW 0x008c2ac8 ?                                                       66   1  0 | u_schd.cpp
+ROW 0x008c2b18 ?                                                       80   1  0 | conn_mgr.cpp
+ROW 0x008c2b88 ?                                                       72   1  0 | u_schd.cpp
+ROW 0x008c2bf4 ?                                                       66   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/fw/inc/rx_api.h
+ROW 0x008c2c38 ?                                                       70   1  0 | basic_if.cpp
+ROW 0x008c2c80 TX_API::alloc_tx_payload                               130   3  4 | TX_API::alloc_tx_payload mem pool allocation failed assignin
+ROW 0x008c2d04 ?                                                       46   1  0 | stream_mgr.cpp
+ROW 0x008c2d4c ?                                                      124   2  0 | Reject MID opening - ID %d is already exist.
+ROW 0x008c2dc8 mem_pool::allocate                                     444  20 56 | mem_pool::allocate failed (m_allocated == m_num_of_cells) (m
+ROW 0x008c2f84 conn_mgr::allocate_cid_db_element                       94   2  7 | conn_mgr::allocate_cid_db_element() CID %d::::: 0x%x status 
+ROW 0x008c2fe4 ?                                                      152   1  0 | Found #%d V-ring to run.
+ROW 0x008c30fc ?                                                       98   2  0 | mid.cpp
+ROW 0x008c3160 conn_mgr::apply_default_link_maintain_cfg              104   1  7 | conn_mgr::apply_default_link_maintain_cfg(): Setting default
+ROW 0x008c3308 PS_CONNECTION::assoc_ntf                               130   1  6 | PS_CONNECTION::assoc_ntf (conn_p=0x%x, is_psm_enabled=%d)
+ROW 0x008c33f4 assoc_ready_check_trig                                 244   4  4 | assoc_ready_check_trig: actual=%d,req=%d
+ROW 0x008c34f4 ps_assoc_mgr::aw_ie_reception                          108   1  4 | ps_assoc_mgr::aw_ie_reception Previous AW Duration: %d. New 
+ROW 0x008c3560 g_dbg_psc_transition                                   164   2  2 | g_dbg_psc_transition INCREASE_PS
+ROW 0x008c3658 TX_API::awake_peer_ntf                                 136   2  7 | tx_api.cpp
+ROW 0x008c36e0 conn_mgr::awake_peer_ntf                                64   1  4 | conn_mgr::awake_peer_ntf CID %d.
+ROW 0x008c3838 ?                                                       74   1  0 | stream_mgr.cpp
+ROW 0x008c3884 ?                                                       72   1  0 | FW-DRIVER race. WMI_VRING_BA_EN_CMD for vring: %d, after dis
+ROW 0x008c38dc ?                                                      116   1  0 | ADDBA RESP send: tid %d , token %d, STATUS REFUSED
+ROW 0x008c3ad4 ?                                                      116   5  0 | Bad instruction (attempt to access ICCM).
+ROW 0x008c3c14 ?                                                      132   2  0 | Wait start_b_idx != tail_idx ...
+ROW 0x008c3c98 bcn_tx_init_bi_cfg                                     148   1  4 | bcn_tx_init_bi_cfg(): discovery_mode = %x
+ROW 0x008c3d2c bcn_tx_init_ss_params                                  278   5  8 | bcn_tx_init_ss_params: discovery beacon total sectors %d 
+ROW 0x008c3f4c ?                                                       52   1  0 | FIND:: Link up....
+ROW 0x008c3fdc ?                                                      326  14  0 | BIND:: Vring Index: %x. Vring availability: %x. Mtp/Bap avai
+ROW 0x008c4298 bss_bi_ctrl_PCP_ready_set                               58   1  1 | [BSS] bss_bi_ctrl_PCP_ready_set %d ! <<<< security_en = %d >
+ROW 0x008c438c ?                                                       80   1  0 |  FINAL -> Result m_capinfo %x (BSS TYPE = 0x%x, privacy %x)
+ROW 0x008c4520 bss_join_verify                                         74   2  4 | bss_join_verify: .................PBC support .....  verify 
+ROW 0x008c456c bss_set_active                                          32   1  3 | bss_set_active (mode %x)
+ROW 0x008c4594 bss_set_mode                                            50   1  4 | bss_set_mode() m_bss_mode = %x, [[[ is_secured = %d ]]]
+ROW 0x008c4938 ?                                                       88   1  0 | connection.cpp
+ROW 0x008c4990 ?                                                      110   1  0 | connection.cpp
+ROW 0x008c4ca8 TX_API::callback_and_release                           120   2  7 | TX_API::callback_and_release() - flushing(0x%x)
+ROW 0x008c4d20 ?                                                       90   2  0 | vring_schdlr.cpp
+ROW 0x008c4e68 class_calib_lo_power::change_state_by_temperature      160   6 24 | class_calib_lo_power::change_state_by_temperature undefined 
+ROW 0x008c5034 ?                                                      178   1  0 | Switching to channel %d
+ROW 0x008c5244 SDP::sdp_init                                          106   2  7 | SDP::sdp_init() the following sdp port has invalid enabled_a
+ROW 0x008c52b0 wmi_handler_get_rf_sector_params::check_inputs_valid   166   5 28 | wmi_handler_get_rf_sector_params::check_inputs_valid(): Bad 
+ROW 0x008c5358 wmi_handler_set_rf_sector_params::verify_inputs        166   5 15 | wmi_handler_set_rf_sector_params::verify_inputs: Bad sector_
+ROW 0x008c5400 wmi_handler_get_selected_rf_sector_index::check_inputs_valid   140   5 28 | wmi_handler_get_selected_rf_sector_index::check_inputs_valid
+ROW 0x008c548c wmi_handler_set_selected_rf_sector_index::check_inputs_valid   200   7 42 | wmi_handler_set_selected_rf_sector_index::check_inputs_valid
+ROW 0x008c5614 brd_if_multi_array::check_physical_section_validity    298   8 20 | brd_if_multi_array::check_physical_section_validity: Unknown
+ROW 0x008c57b0 rm_ch_switch_sm::check_turn_completed                   82   1  4 | rm_ch_switch_sm::check_turn_completed. pend flags = 0x%x, re
+ROW 0x008c5838 l2_mgr::chk_sys_idle                                    84   1  5 | l2_mgr::chk_sys_idle: NON IDLE For MID#%d Number of connecti
+ROW 0x008c589c ?                                                      154   3  0 | No CID index to reuse found.
+ROW 0x008c5938 fwq_tx::long_retry_failures                            200   1  4 | fwq_tx::long_retry_failures for packet 0x%x. Long retry is %
+ROW 0x008c5a34 ?                                                       58   1  0 | bad_beacons_detector.cpp
+ROW 0x008c5a70 ?                                                       90   1  0 | ka_necessity_detector.cpp
+ROW 0x008c5acc ?                                                       74   1  0 | tx_ppdu_ageing_timeout_detector.cpp
+ROW 0x008c5b48 ?                                                       64   1  0 | calib_mngr.cpp
+ROW 0x008c5c0c sta_psc_sm::m_psc_resp_rx_wb_timeout_event              38   1  4 | sta_psc_sm::m_psc_resp_rx_wb_timeout_event delete pending TO
+ROW 0x008c5c4c pcp_psc_sm::m_psc_resp_tx_wb_timeout_event              38   1  4 | pcp_psc_sm::m_psc_resp_tx_wb_timeout_event delete pending TO
+ROW 0x008c5c74 sta_psc_sm::m_psc_req_tx_wb_timeout_event               38   1  4 | sta_psc_sm::m_psc_req_tx_wb_timeout_event delete pending TO.
+ROW 0x008c5cac ?                                                      186   2  0 | MARLON COMM TEST FAILED: EXPECTED=0x%X   ACTUAL=0x%X
+ROW 0x008c5df4 ?                                                      148   3  0 | FIND:: Offload = %d configured with BI %d msec, mode %d.
+ROW 0x008c5ec4 calib_silent_rssi_sparrow                               74   1  2 | calib_silent_rssi_sparrow: Sector set to=%d, Rx_gain set to=
+ROW 0x008c5f18 marlon_r_if_class::config_brp_sectors                  304   3  5 | valid_antennas_vec=0x%X, valid_antennas_count=%d, BRP_ARRAY_
+ROW 0x008c6048 marlon_r_if_class::config_channel                      178   7 29 | marlon_r_if_class::config_channel - NO RF on current platfor
+ROW 0x008c611c ?                                                      318   3  0 | dma_mgr.cpp
+ROW 0x008c625c lm_main_sm::config_lmac_bf_sm                           70   1  4 | lm_main_sm::config_lmac_bf_sm CID=%d
+ROW 0x008c62a4 maintain_sm::config_mcs_en_vec                          92   2  8 | maintain_sm::config_mcs_en_vec MCS_SHORT_VEC 4_8 
+ROW 0x008c6300 ?                                                       82   1  0 | vring_schdlr.cpp
+ROW 0x008c6354 mid::connect                                            78   1  7 | mid::connect() to %04X%04X%04X.
+ROW 0x008c6464 TEMPERATURE_SERVICE::consume_bb_sensor_calibration_parameters    88   2 11 | TEMPERATURE_SERVICE::consume_bb_sensor_calibration_parameter
+ROW 0x008c64bc ?                                                       56   1  0 | Checking RF state: com_test=%d, RX_GAIN_RTYPE_TBL_[13]=0x%x 
+ROW 0x008c64f4 lut::find_index                                         72   2  7 | lut::find_index(): Trying to use not initialized LUT
+ROW 0x008c655c ?                                                      124   2  0 | mid.cpp
+ROW 0x008c66a4 ?                                                       84   1  0 | basic_calib.cpp
+ROW 0x008c6794 ?                                                      340   2  0 | hw_flows_calib_lo_leakage.cpp
+ROW 0x008c6c70 ?                                                      112   3  0 | mem_pool.cpp
+ROW 0x008c6d68 ?                                                       96   1  0 | FIND MNGR: Detect discovery beacon BSSID: %08x%04x discovery
+ROW 0x008c6dc8 scan_mngr::dband_beacon_ind                            480   8 49 | scan_mngr::dband_beacon_ind() uCode mailbox is full, ignore 
+ROW 0x008c7164 ?                                                       56   1  0 | connection.cpp
+ROW 0x008c71b8 deep_sleep_enter                                       538   6 10 | deep_sleep_enter: Send MAILBOX is not empty!!!
+ROW 0x008c73d4 POWER_MNGR::halt                                       138   1  4 | POWER_MNGR::halt ucode took: %d usec
+ROW 0x008c7460 POWER_MNGR::deep_sleep_exit                            108   1  4 | POWER_MNGR::deep_sleep_exit trigger=%d
+ROW 0x008c7578 tx_bcon::del_bcon                                       28   1  7 | tx_bcon::del_bcon() - TX Beacon mid %d -> Stopping
+ROW 0x008c75a8 ?                                                      276   7  0 | stream_mgr.cpp
+ROW 0x008c771c ?                                                       50   1  0 | FIND:: >>>>>>>> DEL DMG DISCOVERY BEACOM <<<<<<<<
+ROW 0x008c7794 ?                                                      174   2  0 | u_schd.cpp
+ROW 0x008c7858 ?                                                       44   1  0 | Remove from VR_SCHDLR #%d V-ring.
+ROW 0x008c7884 ?                                                      126   2  0 | STARTED DELETE BCAST VRING. Vring: %d, Pring: %d
+ROW 0x008c7904 ?                                                       74   1  0 | vring_schdlr.cpp
+ROW 0x008c7950 lm_if::disable_link_loss_monitoring                     52   1  5 | lm_if::disable_link_loss_monitoring: cid=%d, is_enabled=%d
+ROW 0x008c7990 PS_CONNECTION::disassoc_ntf                             54   1  6 | PS_CONNECTION::disassoc_ntf (m_conn_p=0x%x)
+ROW 0x008c7ab4 ?                                                       88   1  0 | PBSS Disconnection: MAC-ADDR-%04X%08X
+ROW 0x008c7b0c vring_schd::disconnect_notify                          304   4  4 | vring_schd::disconnect_notify # %d
+ROW 0x008c7c3c ?                                                       68   1  0 | MID#%d:: Disconnection cmd for CID %d,  reason %d.
+ROW 0x008c7c80 ?                                                      350   2  0 | discovery.cpp
+ROW 0x008c7de0 ?                                                      130   1  0 | txrx_manager.cpp
+ROW 0x008c7e64 ?                                                       52   1  0 | hw_drivers_dma.c
+ROW 0x008c7f68 ?                                                       40   1  0 | DPAL CPL TO Event
+ROW 0x008c7f90 ?                                                       94  11  0 |     %02x 
+ROW 0x008c80c8 rm_main_sm::enter_primary_non_locked                    66   1  4 | rm_main_sm::enter_primary_non_locked. Primary Mismatch, retu
+ROW 0x008c8220 ?                                                       66   2  0 | Stack dump beginning at 0x%x:
+ROW 0x008c8264 ?                                                       92   2  0 | UCODE Stack dump beginning at 0x%x:
+ROW 0x008c82c0 ?                                                      352   7  0 | Crash TSF: curr tsf 0x%08x %08x
+ROW 0x008c8420 ?                                                      138   1  0 | To enable WMI commands change g_sysassert_wmi_lock to FALSE
+ROW 0x008c84ac ?                                                      104   3  0 | uCode INT6 additional info: MAC_SXD.MAC_HW_ICR 0x%08x
+ROW 0x008c87e0 ?                                                      118   1  0 | Engine of %s is already active
+ROW 0x008c88d4 fill_statistics_to_host                                162   1  4 | fill_statistics_to_host() reported rssi value %d
+ROW 0x008c8978 agc_start_index                                        532   7  2 | SR silent RSSI calib --> Decreasing rf_gain_index to %d
+ROW 0x008c8b8c ?                                                      102   1  0 | Removed index CID %d from ranking list.
+ROW 0x008c8bf4 brd_if_multi_array::get_chunk                          172   3 10 | brd_if_multi_array::get_chunk: chunk overflows its block bou
+ROW 0x008c8ca0 lut::find_index                                        296   7 28 | lut::find_index(): x=%d out of search range [%d,%d]
+ROW 0x008c8dc8 brd_if_multi_array::find_section                       156   1  5 | brd_if_multi_array::find_section: Physical section verificat
+ROW 0x008c8ebc TX_CTRL_API::flush_connection                           98   2  7 | TX_CTRL_API::flush_connection() for cid %d
+ROW 0x008c8f20 ?                                                       86   1  0 | fwq_tx.cpp
+ROW 0x008c8f78 fwq_tx::flush_list_packets_by_cid                      146   1  4 | fwq_tx::flush_list_packets_by_cid marking tx_metadata_p=0x%0
+ROW 0x008c9058 TX_API::flush_pending_peer_pm_connection               128   3 12 | TX_API::flush_pending_peer_pm_connection for cid=%d
+ROW 0x008c9104 WBE_DRIVER::Force                                      134   1  4 | WBE_DRIVER::Force Perst
+ROW 0x008c9198 ?                                                      130   2  0 | fw_mailbox.cpp
+ROW 0x008c9220 fr_clr_mdm_crc_statistics                               70   1  2 | fr_clr_mdm_crc_statistics: write 1 to mdm_stt_crc_clr
+ROW 0x008c9268 ?                                                      118   3  0 | mem_pool.cpp
+ROW 0x008c9304 conn_mgr::free_cid_db_element                          118   3  7 | conn_mgr::free_cid_db_element() CID %d::::: 0x%x status %d.
+ROW 0x008c937c ?                                                      120   2  0 | fw_mailbox.cpp
+ROW 0x008c9468 ?                                                       92   2  0 | fw_mailbox.cpp
+ROW 0x008c94c4 TX_API::free_memory                                    116   3  8 | TX_API::free_memory p_tx_metadata=0x%06X, allocated=%d, free
+ROW 0x008c9598 ?                                                       78   1  0 | basic_if.cpp
+ROW 0x008c95e8 TX_INTERNAL_API::connection                            160   2  4 | FWQ Flush notify: flush pend musk[0x%x] MGMT_Q[%d] L2_Q[%d]
+ROW 0x008c97fc ?                                                       60   2  0 | MORDI. TAKE m_dmg_bcon_additional_ies
+ROW 0x008c9a84 brd_if_multi_array::get_board_file_format_version       52   1  5 | brd_if_multi_array::get_board_file_format_version: brd_forma
+ROW 0x008c9b10 ?                                                       46   1  0 | fwq_tx.cpp
+ROW 0x008c9bc8 brd_if_multi_array::get_chunk_in_address_data_pairs_format   152   2  5 | brd_if_multi_array::get_chunk_in_address_data_pairs_format: 
+ROW 0x008c9c60 brd_if_multi_array::get_chunk_in_data_only_format      252   3 10 | brd_if_multi_array::get_chunk_in_data_only_format: chunk dat
+ROW 0x008c9da4 ?                                                      108   3  0 | Requested AID: %d
+ROW 0x008c9e44 ?                                                       46   1  0 | conn_mgr.cpp
+ROW 0x008c9ebc ?                                                      160   4  0 | Received Broadcast AID
+ROW 0x008ca264 ?                                                       58   1  0 | Lifetime: MTRL count %x ->%x, set to %x
+ROW 0x008ca30c ?                                                      124   1  0 | u_schd.cpp
+ROW 0x008ca4a4 ?                                                      100   2  0 | calib_cfg_schemes.c
+ROW 0x008ca538 ?                                                      298   3  0 | fwq_tx.cpp
+ROW 0x008ca540 ?                                                      134   1  0 | fwq_tx.cpp
+ROW 0x008ca964 ?                                                      380  11  0 | *** GET STATUS HAL ***
+ROW 0x008cabe4 ?                                                       64   1  0 | mid.cpp
+ROW 0x008cad54 ?                                                       98   1  0 | GTK key_id: %d.
+ROW 0x008cadb8 wmi_handler_get_rf_sector_params::handle                84   2  7 | wmi_handler_get_rf_sector_params::handle(): Radio is still l
+ROW 0x008cae0c wmi_handler_set_rf_sector_params::handle                88   2  7 | wmi_handler_set_rf_sector_params::handle(): Radio is still l
+ROW 0x008caeb4 bad_beacons_detector::handle_bcons_info                220   3 14 | bad_beacons_detector::handle_bcons_info(): | cid %d | valid_
+ROW 0x008caff0 wmi_handler_get_rf_sector_params::on_radio_locked_cb   290   4  7 | wmi_handlers.cpp
+ROW 0x008cb114 wmi_handler_set_rf_sector_params::set_rf_sector_params   268   4  7 | wmi_handlers.cpp
+ROW 0x008cb220 ?                                                       84   1  0 | <<---- [HOST EVENT] WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE_EV
+ROW 0x008cb274 ?                                                       76   1  0 | <<---- [HOST EVENT] WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE_EV
+ROW 0x008cb2c0 TX_API::handle_completed_packets                       326   5 28 | TX_API::handle_completed_packets() TX WB from DMA #%d for %d
+ROW 0x008cb4fc low_sme::handle_rf_kill                                146   4  6 | low_sme::handle_rf_kill(is_graceful=%d)
+ROW 0x008cb698 ?                                                       62   1  0 | WBE_DRIVER::HOST:: CPL TO - GBE WA Closed!!
+ROW 0x008cb6d8 ?                                                       60   1  0 | <<---- [HOST EVENT] WMI_FW_READY_EVENTID
+ROW 0x008cb714 hw_sysapi_config_short_vec                              64   1  1 | hw_sysapi_config_short_vec 
+ROW 0x008cb754 hw_sysapi_force_mcs                                    108   3  4 | hw_sysapi_force_mcs(): sta_id = %d, force_en = %d, mcs = %d
+ROW 0x008cb808 hwd_abif_battery_config                                166   4  2 | hwd_abif_battery_config: battery_index %d --> not a legal ba
+ROW 0x008cb8d8 ?                                                       52   1  0 | hw_drivers_abif.c
+ROW 0x008cb90c ?                                                       62   1  0 | hw_drivers_abif.c
+ROW 0x008cb964 ?                                                       66   1  0 | hw_drivers_abif.c
+ROW 0x008cb9a8 ?                                                       50   1  0 | hw_drivers_abif.c
+ROW 0x008cba10 DO_WHILE_WITH_MAX_ITER                                 270   4  2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008cbb20 ?                                                      160   3  0 | hw_drivers_abif.c
+ROW 0x008cbbc0 DO_WHILE_WITH_MAX_ITER                                 208   4  2 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cbce8 hwd_abif_rfc_divider_restart                            70   1  2 | hwd_abif_rfc_divider_restart: g_hwd_abif_rfc_divider_restart
+ROW 0x008cbd30 DO_WHILE_WITH_MAX_ITER                                  92   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cbd8c ?                                                      134   3  0 | hw_drivers_abif.c
+ROW 0x008cbe14 ?                                                       54   1  0 | hw_drivers_abif.c
+ROW 0x008cbe6c ?                                                      140   3  0 | hw_drivers_abif.c
+ROW 0x008cbef8 ?                                                      100   2  0 | hw_drivers_abif.c
+ROW 0x008cbf98 ?                                                      182   2  0 | hw_drivers_abif.c
+ROW 0x008cc0c8 ?                                                      118   2  0 | hw_drivers_abif.c
+ROW 0x008cc140 ?                                                       70   1  0 | hw_drivers_abif.c
+ROW 0x008cc188 ?                                                      240   6  0 | hw_drivers_abif.c
+ROW 0x008cc278 ?                                                      154   3  0 | hw_drivers_abif.c
+ROW 0x008cc314 ?                                                      130   2  0 | hw_drivers_abif.c
+ROW 0x008cc3c8 ?                                                      146   3  0 | hw_drivers_abif.c
+ROW 0x008cc45c ?                                                       66   1  0 | hw_drivers_abif.c
+ROW 0x008cc4a0 hwd_abif_rx_table_config_vga_gain                      246   6  2 | hw_drivers_abif.c
+ROW 0x008cc5b0 ?                                                      108   2  0 | hw_drivers_abif.c
+ROW 0x008cc674 ?                                                       88   2  0 | hw_drivers_abif.c
+ROW 0x008cc6dc ?                                                       76   1  0 | hw_drivers_abif.c
+ROW 0x008cc728 ?                                                      142   3  0 | hw_drivers_abif.c
+ROW 0x008cc7b8 ?                                                      122   2  0 | hw_drivers_abif.c
+ROW 0x008cc834 ?                                                      140   3  0 | hw_drivers_abif.c
+ROW 0x008cc8c0 hwd_abif_rx_table_read_vga_gain                        200   4  2 | hw_drivers_abif.c
+ROW 0x008cc9a0 ?                                                       96   2  0 | hw_drivers_abif.c
+ROW 0x008cca2c ?                                                       74   1  0 | hw_drivers_abif.c
+ROW 0x008cca94 ?                                                       52   1  0 | hw_drivers_abif.c
+ROW 0x008ccad8 ?                                                      110   2  0 | hw_drivers_abif.c
+ROW 0x008ccb7c ?                                                       82   2  0 | hw_drivers_abif.c
+ROW 0x008ccbd0 ?                                                      156   3  0 | hw_drivers_abif.c
+ROW 0x008ccc78 ?                                                       58   1  0 | hw_drivers_abif.c
+ROW 0x008cccb4 ?                                                       62   1  0 | hw_drivers_abif.c
+ROW 0x008cccf4 ?                                                      120   2  0 | hw_drivers_abif.c
+ROW 0x008ccd6c ?                                                       64   1  0 | hw_drivers_abif.c
+ROW 0x008ccdac ?                                                      138   3  0 | hw_drivers_abif.c
+ROW 0x008cce38 ?                                                      134   3  0 | hw_drivers_abif.c
+ROW 0x008ccec0 ?                                                       64   1  0 | hw_drivers_abif.c
+ROW 0x008ccf00 ?                                                       72   1  0 | hw_drivers_abif.c
+ROW 0x008ccf48 ?                                                       70   1  0 | hw_drivers_abif.c
+ROW 0x008ccfb0 ?                                                       88   2  0 | hw_drivers_abif.c
+ROW 0x008cd018 ?                                                      112   2  0 | hw_drivers_abif.c
+ROW 0x008cd088 DO_WHILE_WITH_MAX_ITER                                  86   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cd0e0 DO_WHILE_WITH_MAX_ITER                                  66   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cd174 ?                                                       56   1  0 | hw_drivers_abif.c
+ROW 0x008cd1f4 ?                                                       58   1  0 | hw_drivers_abif.c
+ROW 0x008cd230 ?                                                       76   1  0 | hw_drivers_abif.c
+ROW 0x008cd28c ?                                                       66   1  0 | hw_drivers_abif.c
+ROW 0x008cd2d0 ?                                                      124   3  0 | hw_drivers_abif.c
+ROW 0x008cd34c ?                                                      146   3  0 | hw_drivers_abif.c
+ROW 0x008cd3e0 DO_WHILE_WITH_MAX_ITER                                 150   4  2 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cd478 DO_WHILE_WITH_MAX_ITER                                 212   5  2 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cd978 ?                                                       60   2  0 | DMA BAD Interrupt: cause = %x
+ROW 0x008cdaf8 dma_is_idle                                             72   1  2 | dma_is_idle: sw_head:0x%x, sw_head4read:0x%x
+ROW 0x008cdb40 ?                                                      112   1  0 | hw_drivers_dma.c
+ROW 0x008cdbb0 dma_reset                                               56   1  3 | dma_reset(DO.clr_all) call for descq %d
+ROW 0x008cdbe8 ?                                                      194   3  0 | Reset V-ring #%d, head %x head_4_rd %x.
+ROW 0x008cdd24 ?                                                       96   1  0 | hw_drivers_dma.c
+ROW 0x008cdef4 ?                                                       90   1  0 | hw_drivers_dma.c
+ROW 0x008ce044 DO_WHILE_WITH_MAX_ITER                                 132   1  1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008ce15c ?                                                       32   1  0 | HWD MAC: Enable Multi Cast traffic
+ROW 0x008ce17c ?                                                      102   1  0 | In the add_key function. KEY[0]ADDRESS: %x
+ROW 0x008ce1e4 ?                                                      122   1  0 | hw_drivers_mac.c
+ROW 0x008ce260 ?                                                       52   1  0 | hw_drivers_mac.c
+ROW 0x008ce2bc ?                                                       68   1  0 | hw_drivers_mac.c
+ROW 0x008ce464 ?                                                       16   1  0 | SYSTEM   
+ROW 0x008ce50c ?                                                       84   2  0 | hw_drivers_pcie.c
+ROW 0x008ce578 hwd_pcie_exit_l1                                       302   7  2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008ce7d8 ?                                                      132   2  0 | PCIE: EP under Serdes: LnkCtl: Chk L0s configuration(0x%x)!!
+ROW 0x008ce8d8 hwd_pcie_l1_enter_isr                                   30   1  2 | hwd_pcie_l1_enter_isr: PCIE LTSSM State != LTSSM_S_L1_IDLE
+ROW 0x008ce958 ?                                                       50   1  0 | hwd_pcie_l1_pm_sub_ctl_get:: EP under SWITCH Not supported!!
+ROW 0x008ce9ac hwd_pcie_l1_sub_timing_config                          140   2  2 | hwd_pcie_l1_sub_timing_config: pcie_l1_sub_timing_reg: l12_e
+ROW 0x008ceab8 ?                                                       88   1  0 | Sparrow PCIe L1SS Support enabled
+ROW 0x008ceb10 ?                                                       48   1  0 | hwd_pcie_config_lnkctl:: EP under SWITCH Not supported!!!
+ROW 0x008ceb40 ?                                                       62   1  0 | hwd_pcie_lnkctl_set:: EP under SWITCH Not supported yet!!!
+ROW 0x008ceb80 ?                                                      140   3  0 | PCIE: EP under Serdes: DevCtl: Chk MaxReadReq configuration!
+ROW 0x008cec0c ?                                                      140   1  0 | hw_drivers_pcie.c
+ROW 0x008cecd0 ?                                                      116   3  0 | hw_drivers_pcie.c
+ROW 0x008ced78 ?                                                       84   2  0 | hw_drivers_pcie.c
+ROW 0x008cedcc ?                                                       34   1  0 | Clear and mask PCIe interrupts
+ROW 0x008ceed4 ?                                                      104   2  0 | Not Understood BUG_5661_WA: hwd_phy_dbg_clk_enable(%d)
+ROW 0x008cef4c hwd_phy_get_rx_swap_iq                                  98   1  2 | hwd_phy_get_rx_swap_iq: I and Q inverse values are not the s
+ROW 0x008cefb0 hwd_phy_get_tx_swap_iq                                  64   1  2 | hwd_phy_get_tx_swap_iq: I and Q inverse values are not the s
+ROW 0x008ceff0 hwd_phy_init                                            92   2  4 | hwd_phy_init() The Same as RESET Value: Address = 0x%08X, Da
+ROW 0x008cf07c ?                                                      104   1  0 | hw_drivers_phy.c
+ROW 0x008cf1b8 DO_WHILE_WITH_MAX_ITER                                 236   6  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cf2a4 ?                                                      486   8  0 | hw_drivers_phy.c
+ROW 0x008cf4c8 ?                                                       50   1  0 | hw_drivers_phy.c
+ROW 0x008cf4fc ?                                                       48   1  0 | hw_drivers_phy.c
+ROW 0x008cf52c ?                                                       90   2  0 | hw_drivers_phy.c
+ROW 0x008cf588 ?                                                      218   4  0 | hw_drivers_phy.c
+ROW 0x008cf664 ?                                                      148   1  0 | hw_drivers_phy.c
+ROW 0x008cf6f8 ?                                                       82   1  0 | hw_drivers_phy.c
+ROW 0x008cf74c ?                                                      102   1  0 | hw_drivers_phy.c
+ROW 0x008cf8e8 ?                                                      112   1  0 | hw_drivers_phy.c
+ROW 0x008cf988 ?                                                      104   3  0 | DEBUG PHY: AGC_START=%d    ina_rssi_adc_db=%d    ina_rssi_ad
+ROW 0x008cfa04 ?                                                       58   1  0 | hw_drivers_phy.c
+ROW 0x008cfa40 ?                                                       50   1  0 | hw_drivers_phy.c
+ROW 0x008cfaa4 ?                                                       52   1  0 | hw_drivers_phy.c
+ROW 0x008cfad8 ?                                                      104   2  0 | hw_drivers_phy.c
+ROW 0x008cfb40 ?                                                       82   3  0 | LINK_STATS PHY_INA_SYNC_CP=%d PHY_INA_SYNC_DP=%d
+ROW 0x008cfbc8 DO_WHILE_WITH_MAX_ITER                                  66   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x008cfca8 ?                                                       50   1  0 | hw_drivers_phy.c
+ROW 0x008cfdc0 ?                                                      130   3  0 | hw_drivers_phy.c
+ROW 0x008cfe5c ?                                                      122   3  0 | hw_drivers_phy.c
+ROW 0x008cfef4 hwd_PHY_STORE_TXRX_SWAP_IQ                              60   1  1 | hwd_PHY_STORE_TXRX_SWAP_IQ  g_default_tx_swap_iq=%d, g_defau
+ROW 0x008cff30 ?                                                      266   5  0 | hw_drivers_phy.c
+ROW 0x008d006c ?                                                      106   2  0 | hw_drivers_phy.c
+ROW 0x008d00f0 ?                                                      120   2  0 | hw_drivers_phy.c
+ROW 0x008d0168 ?                                                      128   2  0 | hw_drivers_phy.c
+ROW 0x008d01e8 ?                                                      196   5  0 | hw_drivers_phy.c
+ROW 0x008d02ac ?                                                      106   1  0 | hw_drivers_phy.c
+ROW 0x008d0394 ?                                                      152   1  0 | hw_drivers_rfc.c
+ROW 0x008d04fc hwd_rfc_read_rgf                                       130   2  4 | hwd_rfc_read_rgf: read failed. Calling hwd_abif_rfc_divider_
+ROW 0x008d073c ?                                                       52   1  0 | hw_drivers_rfc.c
+ROW 0x008d0770 ?                                                       86   2  0 | hw_drivers_rfc.c
+ROW 0x008d0800 hwd_rfc_sector_dist_gain_set                           186   2  8 | hwd_rfc_sector_dist_gain_set(): TX sector# %d activated (set
+ROW 0x008d0960 hwd_rfc_sector_edge_gain_set                           386   2  8 | hwd_rfc_sector_edge_gain_set(): TX sector# %d activated (set
+ROW 0x008d0b58 hwd_rfc_sector_edge_phase_set                          354   4 16 | hwd_rfc_sector_edge_phase_set(): Before Update: phs_h_val=0x
+ROW 0x008d0cf8 hwd_rfc_sector_x16_state_set                           162   2  8 | hwd_rfc_sector_x16_state_set(): TX sector# %d activated (set
+ROW 0x008d0e80 hwd_rfc_tx_power_cfg                                   114   1  1 | hwd_rfc_tx_power_cfg set_low_gain = %d
+ROW 0x008d0ef4 ?                                                       52   1  0 | hw_drivers_rfc.c
+ROW 0x008d0f28 ?                                                       86   2  0 | hw_drivers_rfc.c
+ROW 0x008d0f80 DO_WHILE_WITH_MAX_ITER                                 444  12  3 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008d113c ?                                                       56   1  0 | hw_drivers_rfc.c
+ROW 0x008d12c0 ?                                                       64   1  0 | data0 is 0x%x
+ROW 0x008d1300 hwd_rfc_xpm_get_data_output                            132   2  4 | hwd_rfc_xpm_get_data_output(): Timeout occured while waiting
+ROW 0x008d13dc ?                                                       82   1  0 | GPIO0 = 0x%8X GPIO1 = 0x%8X GPIO2 = 0x%8X
+ROW 0x008d1478 SDP::hwd_sdp_is_defined_mode                            48   2  7 | SDP::hwd_sdp_is_defined_mode() the following is not a valid 
+ROW 0x008d14a8 SDP::hwd_sdp_is_defined_sdp                             48   2  7 | SDP::hwd_sdp_is_defined_sdp() the following port was not exp
+ROW 0x008d14d8 SDP::hwd_sdp_is_gpio_sdp                                56   2  7 | SDP::hwd_sdp_is_gpio_sdp() the following port was not expect
+ROW 0x008d1510 SDP::hwd_sdp_is_int_ctrl_sdp                            60   2  7 | SDP::hwd_sdp_is_int_ctrl_sdp() the following port was not ex
+ROW 0x008d16f0 vring_is_empty                                          68   1  2 | vring_is_empty: sw_head:0x%x, sw_tail:0x%x
+ROW 0x008d19b0 ?                                                      424   9  0 | =========  HWF_CALIB_ALL ================ 
+ROW 0x008d1b58 hwf_calib_bb_gain_alg                                  196   2  8 | hwf_calib_bb_gain_alg() BB_GAIN Calib::Measure_VGA_Gains:: c
+ROW 0x008d1c1c hwf_calib_bb_gain_create_table                         672   1  4 | hwf_calib_bb_gain_create_table() Non linearity in RX-VGA Tab
+ROW 0x008d2064 ?                                                     1054   2  0 |       Reference row wasn't found. cntr = %d, indexs = %x, dc
+ROW 0x008d2828 IF_GAIN::GAIN                                         1358   8  4 | hw_flows_if_gain_calibration.c
+ROW 0x008d2d78 ?                                                      448   2  0 | ===== IF GAIN FinEst: CAL_CORRECTION_NON_CONVERGED (iter_cnt
+ROW 0x008d31ac hwf_calib_sar_alg                                      122   2  4 | hwf_CALIB_SAR_ALG reached CALIB_SAR_MAX_ITER(%d)
+ROW 0x008d3738 ?                                                      240   2  0 | hw_flows_calibration_manager.c
+ROW 0x008d3870 ?                                                      244   2  0 | hw_flows_calibration_manager.c
+ROW 0x008d3a70 ?                                                      384   1  0 | hw_flows_vga_dc_calibration.c
+ROW 0x008d3bec ?                                                      288   2  0 | hw_flows_vga_dc_calibration.c
+ROW 0x008d4124 hwf_PHY_DIG_LOOPBACK_BER_TEST                          224   2  2 | hwf_PHY_DIG_LOOPBACK_BER_TEST START: nFrames=%d, mcs=%d, len
+ROW 0x008d4204 hwf_PHY_IF_LOOPBACK_BER_TEST                           298   2  2 | hwf_PHY_IF_LOOPBACK_BER_TEST START: nFrames=%d, mcs=%d, leng
+ROW 0x008d4330 hwf_phy_production_loopback_test                       574   5  8 | hwf_phy_production_loopback_test: started 
+ROW 0x008d4600 ?                                                      120   4  0 | RX status: OK, %d packets received during last msec
+ROW 0x008d46c0 ?                                                       50   1  0 | RF RESET DONE
+ROW 0x008d4740 ?                                                       34   1  0 | hw_flows_rf.c
+ROW 0x008d4764 hwf_sector_rf_chain_get                                138   3  8 | hwf_sector_rf_chain_get(): Inputs: sector_num=%d, is_tx_sect
+ROW 0x008d47f0 hwf_sector_rf_chain_set                                504   4 16 | hwf_sector_rf_chain_set(): sector_num=%d, is_tx_sector=%d, c
+ROW 0x008d49e8 hwf_sector_rf_chains_array_get                         192   3 12 | hwf_sector_rf_chains_array_get():  Reading chains 0 to %d of
+ROW 0x008d4b3c ?                                                      152   1  0 |  ====== hwm_ANALOG_CHANNEL_SWITCH  channel_num[1..4]=%d ====
+ROW 0x008d4cc0 hwm_power_33kHz_clk_detector                            96   1  2 | hwm_power_33kHz_clk_detector:  External clock (33KHz) detcet
+ROW 0x008d5014 ?                                                      118   1  0 | hw_modes_power_manager.c
+ROW 0x008d5274 ?                                                      198   1  0 |       Coarse VGA (%d) reached its limit (%d)
+ROW 0x008d533c ?                                                       54   1  0 | fw_mailbox.cpp
+ROW 0x008d5374 ?                                                       98   2  0 | Information flow - MID[%d] CID[%d] .
+ROW 0x008d5428 ?                                                      196   3  0 | Information request -Ignored sta_idx %d, isn't active.
+ROW 0x008d54ec ?                                                      114   1  0 | stream_mgr.cpp
+ROW 0x008d580c POWER_MNGR::init                                       140   2  4 | POWER_MNGR:: m_ps_if_ptr: %x m_ps_nonassoc_mgr: %x
+ROW 0x008d5cc4 ?                                                      102   1  0 | calib_engine.cpp
+ROW 0x008d5ec4 brd_if_multi_array::init                               162   3 10 | brd_if_multi_array::init: Required Board File Size=%d bytes,
+ROW 0x008d5f68 ?                                                       32   1  0 | FWQ_TX_AVAILABILITY::init
+ROW 0x008d5f8c bad_beacons_detector::init                              78   2  7 | bad_beacons_detector::init(): cid=%d, m_p_lm_info=0x%x
+ROW 0x008d6028 ?                                                       40   1  0 | pcie_device_power_if::init
+ROW 0x008d60a4 ka_necessity_detector::init                             94   2  7 | ka_necessity_detector::init(): cid=%d, m_p_lm_info=0x%x
+ROW 0x008d6140 tx_ppdu_ageing_timeout_detector::init                   98   2  7 | tx_ppdu_ageing_timeout_detector::init(): this=0x%x, cid=%d, 
+ROW 0x008d62c0 ?                                                      108   1  0 | fwq_tx.cpp
+ROW 0x008d632c ?                                                       82   1  0 | psc_if::init
+ROW 0x008d63fc ?                                                      124   1  0 | tx_macq.cpp
+ROW 0x008d6568 ?                                                      208   4  0 | mid.cpp
+ROW 0x008d6674 init_bcast_queue                                        98   1  2 | init_bcast_queue: supported bcast MTU is %d which is less th
+ROW 0x008d66d8 marlon_r_if_class::init_board_file_interface            74   2 10 | marlon_r_if_class::init_board_file_interface: Multi-Array fo
+ROW 0x008d68d8 ?                                                      228   1  0 | tx_queue_mgr.cpp
+ROW 0x008d69bc marlon_r_if_class::init_board_file_inteface             74   1  5 | marlon_r_if_class::init_board_file_inteface: Board file init
+ROW 0x008d6a1c ?                                                      160   2  0 | Inject %s event to %s. Next state: %s
+ROW 0x008d6afc ?                                                       96   2  0 | ul_stream.cpp
+ROW 0x008d6b80 ?                                                      112   2  0 | PCP psc_if::start_psc. sending Unsolicit PSC-RESP
+ROW 0x008d6bf0 ?                                                      128   2  0 | Received PSC REQ
+ROW 0x008d6c70 ?                                                      392  10  0 | Received PSC RESP while sta_psc_sm::IDLE therefore IGNORING 
+ROW 0x008d6df8 ?                                                      134   2  0 | Operational MBOX init
+ROW 0x008d6e80 ?                                                       38   1  0 | operational_if.cpp
+ROW 0x008d6ea8 ?                                                      114   1  0 | Debug MBOX init
+ROW 0x008d6ff8 ?                                                       56   1  0 | stream_mgr.cpp
+ROW 0x008d7084 tx_macq::is_empty                                      108   2  8 | tx_macq::is_empty mac_pld:0x%x, pal:0x%x
+ROW 0x008d70fc ?                                                       80   1  0 | bad_beacons_detector.cpp
+ROW 0x008d714c ?                                                       84   1  0 | ka_necessity_detector.cpp
+ROW 0x008d71a0 ?                                                       84   1  0 | tx_ppdu_ageing_timeout_detector.cpp
+ROW 0x008d75dc rm_main_sm::kick_channel_switch_sm                      80   1  4 | rm_main_sm::kick_channel_switch_sm. channelID=%d
+ROW 0x008d7658 ?                                                       30   1  0 | hw_drivers_user_led.c
+ROW 0x008d7694 ?                                                       98   1  0 | hw_drivers_user_led.c
+ROW 0x008d7724 ?                                                       54   1  0 | led_scheme.cpp
+ROW 0x008d775c ?                                                      116   1  0 | led_scheme.cpp
+ROW 0x008d7838 mid::link_acquisition_action                           310   6 42 | mid::link_acquisition_action() Start for link for: ADDR-%04X
+ROW 0x008d79cc conn_mgr::link_down_evt                                 38   1  7 | conn_mgr::link_down_evt()
+ROW 0x008d7a20 ?                                                      158   4  0 | SW TX MGMT: link acquisition activated.
+ROW 0x008d7ae0 SW_TX_MGMT_API::link_up_evt                            244   6 11 | SW_TX_MGMT_API::link_up_evt() IN
+ROW 0x008d7bdc conn_mgr::link_up_evt                                   56   1  7 | conn_mgr::link_up_evt() conn=0x%x. status=%d, pend_connect=%
+ROW 0x008d7d1c ?                                                       92   1  0 | lm_if.cpp
+ROW 0x008d7de4 ?                                                      108   2  0 | FIND:: Listen for %d msec.
+ROW 0x008d7e50 find_mng::listen                                        72   1  7 | find_mng::listen() RX start
+ROW 0x008d7f80 DO_WHILE_WITH_MAX_ITER                                 130   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008d8004 DO_WHILE_WITH_MAX_ITER                                 114   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008d8078 ?                                                       60   1  0 | AWAKE PEERS EVENT: awake peers vector = 0x%x , awake no tx p
+ROW 0x008d80dc ?                                                      120   1  0 | Send CMD_BCON_MGT: flags.pcp_assoc_ready = %x, discovery_mod
+ROW 0x008d8188 ?                                                      144   2  0 | Discovery ABFT Notify status %d (BF_DONE_OK = 1)
+ROW 0x008d8218 ?                                                      308  16  0 | Manually failling the BF for debug
+ROW 0x008d84a8 lmac_if_discovery_mode_cfg_handler                      70   1  4 | lmac_if_discovery_mode_cfg_handler() send command to uCode d
+ROW 0x008d84f0 lmac_if_echo_evt_handler                                52   1  1 | lmac_if_echo_evt_handler sending deep echo back to SW %x
+ROW 0x008d85e4 lmac_if_keep_alive_trigger_handler                      58   1  4 | lmac_if_keep_alive_trigger_handler() send keep_alive_trigger
+ROW 0x008d865c ?                                                      348  13  0 | [BTI] | start time 0x%08x%08x | duration %d 
+ROW 0x008d8824 ?                                                       62   1  0 | Sending CMD_PHY_INA_DET_CFG [ad_out_of_txop_en=%d, ad_in_txo
+ROW 0x008d88e8 ?                                                      154   4  0 | RS DONE: CID=%d MCS:%d
+ROW 0x008d8984 LMAC_IF::rs_started                                     64   3  4 | LMAC_IF::rs_started - Host - IGNORE
+ROW 0x008d8a7c ?                                                      196   2  0 | Sending CMD_SELECTIVE_NEIGHBOR_CFG [selective_detection_en=%
+ROW 0x008d8bf4 ?                                                      138   4  0 | lmac_if.cpp
+ROW 0x008d8cb0 lmac_if_trigger_bf                                      70   1  2 | lmac_if_trigger_bf: cid=%d, bf_cmd_type = %d
+ROW 0x008d8d30 ?                                                      116   1  0 | lmac_if.cpp
+ROW 0x008d8de0 lmac_if_update_aw_ie_handler                            76   1  1 | lmac_if_update_aw_ie_handler. tbtt_start_time: 0x%x awake_wi
+ROW 0x008d8f80 marlon_r_if_class::load_brd_parameters_section         302   3 15 | marlon_r_if_class::load_brd_parameters_section: BRD Section 
+ROW 0x008d90a8 marlon_r_if_class::load_brd_rf_cfg_section             304   3 15 | marlon_r_if_class::load_brd_rf_cfg_section: BRD Section Writ
+ROW 0x008d91d4 rm_main_sm::lock_primary                                72   1  4 | rm_main_sm::lock_primary. callback 0x%x for Handle:0x%x
+ROW 0x008d9288 RADIO_MGR::lock_primary                                 46   1  7 | RADIO_MGR::lock_primary() Handle:0x%x
+ROW 0x008d938c RADIO_MGR::lock_secondary                               62   1  7 | RADIO_MGR::lock_secondary() [tune=%d, channelId=%d]. Handle:
+ROW 0x008d94b0 ?                                                      140   4  0 | START_0
+ROW 0x008d953c ?                                                       58   1  0 | *** BF CTRL HAL ***
+ROW 0x008d9578 WMI_FW_VER_EVENTID                                     258   6  4 | WMI_FW_VER_EVENTID: %d.%d
+ROW 0x008d967c ?                                                      154   2  0 | HOST TIMESTAMP SYNC %02d/%02d/%04d
+ROW 0x008d9718 ?                                                      144   3  0 | CID = %d
+ROW 0x008d97a8 ?                                                      188   6  0 | connection ID [%d] out of range
+ROW 0x008d9864 ?                                                      146   6  0 | *** SET SECTORS HAL ***
+ROW 0x008d98f8 ?                                                      230   1  0 | link_stats_sm.cpp
+ROW 0x008d99e0 ?                                                      230   3  0 | cnt_handler.c
+ROW 0x008d9b58 ?                                                       78   1  0 | VR-Scheduler handles uCode Flush Response.
+ROW 0x008d9ba8 mailbox_debug_dump                                     100   4  6 | mailbox_debug_dump: m_ctrl->ring_tail_ptr - 0x%x, m_ctrl->ri
+ROW 0x008d9c18 ?                                                       72   1  0 | lm_if.cpp
+ROW 0x008d9cc4 map_tx_sectors                                         216   2  1 | brd_if_multi_array.cpp
+ROW 0x008d9e0c ?                                                       54   1  0 | link_stats_sm.cpp
+ROW 0x008d9e84 ?                                                       76   1  0 | Temp sense is currently active - using old values
+ROW 0x008d9ed0 measure_rssi_using_histogram                           294   1  3 | measure_rssi_using_histogram(associated), RSSI 0 detected!!!
+ROW 0x008da098 ies_block::merge                                       342   4  7 | app_ies.cpp
+ROW 0x008da284 ?                                                      300   5  0 | [PRS]Unhandled  MGMT type: sub_type %d stype %x len %d 
+ROW 0x008da490 mlme_notify                                            130   3  2 | mlme_notify: CID %d protocol_reason %x <mlme_event %x>
+ROW 0x008db1fc notify_conn_flush_done                                  68   1  2 | notify_conn_flush_done: m_connection_pending_flush_msk = 0x%
+ROW 0x008db2c0 ?                                                       88   2  0 | hw_drivers_dma_offload.c
+ROW 0x008db394 SW_TX_MGMT_API::packet_release                          54   1  4 | SW_TX_MGMT_API::packet_release func=0x%x
+ROW 0x008db61c ?                                                      124   1  0 | hw_drivers_mac_parser.c
+ROW 0x008db708 parse_wilocity_vs_get_netowork_mode                     62   2  2 | parse_wilocity_vs_get_netowork_mode Not found.
+ROW 0x008db770 parse_wilocity_vs_get_test_mode                         74   2  2 | parse_wilocity_vs_get_test_mode Not found.
+ROW 0x008db7bc parse_wilocity_vs_get_version                           34   1  1 | parse_wilocity_vs_get_version Not found.
+ROW 0x008db898 ?                                                       78   1  0 | hw_drivers_mac_parser.c
+ROW 0x008db8e8 ?                                                      252   3  0 | hw_drivers_mac_parser.c
+ROW 0x008dba18 ?                                                       74   1  0 | hw_drivers_mac_parser.c
+ROW 0x008dbc3c ?                                                      180   1  0 | hw_drivers_mac_parser.c
+ROW 0x008dc008 ?                                                       50   1  0 | lm_if.cpp
+ROW 0x008dc03c ?                                                      100   1  0 | mid.cpp
+ROW 0x008dc0a0 ?                                                       84   1  0 | ADD PBSS AID %d, MAC address ADDR-%04X%08X
+ROW 0x008dc0f4 ?                                                      156   3  0 | DEL PBSS AID %d, MAC address ADDR-%04X%08X
+ROW 0x008dc190 ?                                                      210   2  0 | stats_timer_exp:: L1 WA: %d Took %d usec
+ROW 0x008dc264 DO_WHILE_WITH_MAX_ITER                                 320   2  1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008dc3a4 pcie_device_power_if::pcie_power_pcie_interrupt         62   2  4 | pcie_device_power_if::pcie_power_pcie_interrupt - send Wake 
+ROW 0x008dc430 ?                                                      100   1  0 | <<---- [HOST EVENT] WMI_TRAFFIC_DEFERRAL_EVENTID status %d, 
+ROW 0x008dc494 ?                                                       86   1  0 | <<---- [HOST EVENT] WMI_TRAFFIC_RESUME_EVENTID status %d, de
+ROW 0x008dc4ec pcie_device_power_if::pcie_power_wake_signal            58   1  4 | pcie_device_power_if::pcie_power_wake_signal - send Wake sig
+ROW 0x008dc544 ?                                                      282   4  0 | PCP Start failed, MAC address error
+ROW 0x008dc660 ?                                                      144   2  0 | PCP Stop -> primary channel was unset !!!  
+ROW 0x008dc6f4 perform_first_measurement_operations                   104   2  8 | perform_first_measurement_operations() Calibrated BB measure
+ROW 0x008dc92c ?                                                      118   1  0 | u_schd.cpp
+ROW 0x008dc99c ?                                                      122   1  0 | u_schd.cpp
+ROW 0x008dca18 ?                                                      102   2  0 | <<---- [HOST EVENT] WMI_TX_MGMT_PACKET_EVENTID TX_API::post_
+ROW 0x008dcc60 brd_if_multi_array::brd_header_u                        54   1  5 | brd_if_multi_array::brd_header_u: entry idx_entry=%d, offset
+ROW 0x008dcc98 brd_if_multi_array::physical_section_header_u::print2log    94   3  5 | brd_if_multi_array::physical_section_header_u::print2log: he
+ROW 0x008dccf8 brd_if::block_info::print2log                           60   2  5 | brd_if::block_info::print2log: section_type=%d, block_index=
+ROW 0x008dcd34 brd_if::section_info::print2log                         52   2  5 | brd_if::section_info::print2log: section_type=%d, blocks_cou
+ROW 0x008dcd68 allocation_type                                        112   3  2 | ESE CFG CMD. ESE: Allocation start TSF: %x, My AID: %d
+ROW 0x008dcdd8 ?                                                      106   3  0 | [DBG AWAKE PEERS] sw_vring=0x%02x | data_in_prev_bi=0x%02x |
+ROW 0x008dce44 ?                                                       94   2  0 | About to print ies:
+ROW 0x008dcea4 conn_mgr::print_link_maintain_cfg                       82   3  7 | conn_mgr::print_link_maintain_cfg(): | link_loss_enable_dete
+ROW 0x008dcef8 ?                                                      130   4  0 | [NNL] | cid %d | tm_no_tx %d | ack_cnt %d
+ROW 0x008dcf7c ?                                                      130   4  0 | [NNL] | cid %d | ageing %d | ack_cnt %d
+ROW 0x008dd084 process_expected_bf_results                             32   1  2 | process_expected_bf_results: invalid mcs:%d
+ROW 0x008dd0b4 vring_schd::prohibit_cids                              112   1  5 | vring_schd::prohibit_cids: V-ring #%d being stop.
+ROW 0x008dd124 ?                                                       76   1  0 | rx_macq.cpp
+ROW 0x008dd178 PS_ASSOC_SM::ps_cancel_schd_reenter                     38   1  4 | PS_ASSOC_SM::ps_cancel_schd_reenter PS_DISABLE handle: 0x%x
+ROW 0x008dd1a0 ?                                                       42   1  0 | ps_nonassoc_sm.cpp
+ROW 0x008dd500 ?                                                       84   1  0 | POWER_MNGR:: Number of connection: %d, curr_awake_window: %d
+ROW 0x008dd554 PS_CONNECTION::psc_complete                            428   5 10 | PS_CONNECTION::psc_complete (is_local=%d) (success=%d) (dpm=
+ROW 0x008dd7c8 sta_psc_sm::psc_done_sm                                 70   1  4 | sta_psc_sm::psc_done_sm. dpm: %d, success: %d
+ROW 0x008dd810 ?                                                       32   1  0 | Ignoring ps_connection::psc_req_rx_handler
+ROW 0x008dd8a4 PS_CONNECTION_MGR::psc_req_tx_wb_cb                    118   3  4 | PS_CONNECTION_MGR::psc_req_tx_wb_cb - p_conn is NULL
+ROW 0x008dd9e0 PS_CONNECTION_MGR::psc_resp_tx_wb_cb                    82   3  4 | PS_CONNECTION_MGR::psc_resp_tx_wb_cb - p_conn is NULL
+ROW 0x008ddaa8 ?                                                       32   1  0 | Ignoring ps_connection::psc_rsp_rx_handler
+ROW 0x008dde58 ?                                                      116   2  0 | read size is outside of otp boundaries!
+ROW 0x008ddecc TEMPERATURE_SERVICE::read_rf_sensor_calibration_parameters   164   4 21 | TEMPERATURE_SERVICE::read_rf_sensor_calibration_parameters()
+ROW 0x008ddf70 ?                                                       52   1  0 | No temperature measurment - NO RF on current platform!!!
+ROW 0x008de11c regulatory_domain_set_tx_gain_offset                    58   1  1 | regulatory_domain_set_tx_gain_offset set_low_gain = %d
+ROW 0x008de158 maintain_sm::release_radio_after_bf_evt                 68   2 14 | maintain_sm::release_radio_after_bf_evt()  remove_request 0x
+ROW 0x008de1a4 ?                                                      172   3  0 | Remove request Tlv type %d from block 0x%X.
+ROW 0x008de250 remove_app_ie                                           94   2  2 | remove_app_ie: frame type %x length %d. IE type: %d
+ROW 0x008de304 FWQ_TX_AVAILABILITY::remove_packet                     196   5  4 | FWQ_TX_AVAILABILITY::remove_packet cid=%d, mcs=%d
+ROW 0x008de444 RADIO_MGR::remove_request                               36   1  4 | RADIO_MGR::remove_request. Handle:0x%x
+ROW 0x008de468 STREAM_MGR                                             132   2  4 | STREAM_MGR: REMOVE STREAM [%d] belongs to CID %d.
+ROW 0x008de4ec ?                                                      158   4  0 | llist.cpp
+ROW 0x008de5d8 ?                                                      114   1  0 | tx_macq.cpp
+ROW 0x008de824 ?                                                       50   1  0 | lm_if.cpp
+ROW 0x008de858 vring_schd::resume_vring                               118   2  4 | vring_schd::resume_vring. vr_index:%d.
+ROW 0x008de988 marlon_r_if_class::rf_configure_role_power              54   2  5 | rf_configure_role_power - NO RF on current platform!!!
+ROW 0x008dea6c marlon_r_if_class::rf_hw_write_buffer                   62   1  5 | marlon_r_if_class::rf_hw_write_buffer: not performing any wr
+ROW 0x008deaac marlon_r_if_class::rf_write_with_block_retries         592  13 10 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008ded90 ?                                                      110   1  0 | rx_macq.cpp
+ROW 0x008def44 ?                                                      166   5  0 | RX PKT SRVS: CID %d stype %x pkt len %d 
+ROW 0x008df014 ?                                                       96   5  0 | RX MGMT SRVS: Distribute MLME packet subtype 0x%X to MID %d
+ROW 0x008df11c ?                                                      236   4  0 | RX SRVS: pkt for mid %d type %d len %d
+ROW 0x008df208 rx_pkt_handler                                         150   5  1 | rx_pkt_handler invalid cid , stype %x length %d- drop pkt
+ROW 0x008df50c ?                                                      220   3  0 | rx_queue.c
+ROW 0x008df5fc ?                                                      108   1  0 | rx_queue.c
+ROW 0x008df710 ?                                                      146   1  0 | rx_queue.c
+ROW 0x008df7a4 ?                                                      230   1  0 | rx_queue.c
+ROW 0x008df8b0 ?                                                      226   3  0 | rx_queue.c
+ROW 0x008dfa40 ?                                                       64   1  0 | link_stats_sm.cpp
+ROW 0x008dfa80 schedule_long_term_trigger                             234   3  4 | schedule_long_term_trigger: max mcs=%d , current mcs:%d
+ROW 0x008dfc54 ?                                                       68   1  0 | link_stats_sm.cpp
+ROW 0x008dfcd4 ?                                                      120   1  0 | calib_mngr.cpp
+ROW 0x008dfe00 SDP::sdp_drive_value                                    82   2  7 | SDP::sdp_drive_value() the following sdp port is not output 
+ROW 0x008dfe90 SDP::sdp_init                                          278   5 14 | Configuring SDP %d
+ROW 0x008dffa8 SDP::sdp_is_in_use_sdp                                  48   2  7 | SDP::sdp_is_in_use_sdp() the following port was not declared
+ROW 0x008e0030 ?                                                      102   2  0 | FIND:: Search for %d msec.
+ROW 0x008e0098 find_mng::search                                        62   1  7 | find_mng::search() RX start
+ROW 0x008e048c ?                                                      214   3  0 | basic_if.cpp
+ROW 0x008e061c ?                                                      120   1  0 | <<---- [HOST EVENT] WMI_BA_STATUS_EVENTID for midid %d.
+ROW 0x008e0694 send_cmd2_lmac                                         130   2  2 | send_cmd2_lmac: type 0x%x, curr tsf 0x%08x %08x
+ROW 0x008e0748 TX_API::send_dband_bcon                                110   2  4 | TX_API::send_dband_bcon. length=%d on channel %d.
+ROW 0x008e07b8 ?                                                      140   1  0 | ba_sm.cpp
+ROW 0x008e0874 ?                                                       86   1  0 | operational_if.cpp
+ROW 0x008e09ac ?                                                      122   2  0 | CMD TX DATA failed - No CID found for sta %d
+ROW 0x008e0a28 fwq_tx::send_next                                       90   1  4 | fwq_tx::send_next tx_metadata_p=0x%06x
+ROW 0x008e0b38 SW_TX_MGMT_API::send_packet                            266   6 21 | SW_TX_MGMT_API::send_packet() IN
+ROW 0x008e0c74 TX_API::send_packet                                    378   6  8 | tx_api.cpp
+ROW 0x008e0e3c ?                                                      198   3  0 | Sending PSC REQ. bi_start_time:0x%x, number_of_awake_bi:%d, 
+ROW 0x008e0f04 sta_psc_sm::send_psc_req_flow_sm                        86   2  4 | sta_psc_sm::send_psc_req_flow_sm. retry count: %d
+ROW 0x008e0f5c bi_start_time                                          152   2  2 | Sending PSC RESP. Length: %d bytes.
+ROW 0x008e0ff4 ?                                                       82   2  0 | pcp_psc_sm::send_psc_resp_flow.
+ROW 0x008e1048 ?                                                      110   2  0 | low_sme.cpp
+ROW 0x008e10d8 ?                                                       82   1  0 | <<---- [HOST EVENT] WMI_TEMP_SENSE_DONE_EVENTID: Baseband=%d
+ROW 0x008e1144 wmi_handler_get_rf_sector_params::set                  126   2 10 | wmi_handler_get_rf_sector_params::set: Cannot execute comman
+ROW 0x008e11c4 wmi_handler_set_rf_sector_params::set                  132   2 10 | wmi_handler_set_rf_sector_params::set: Cannot execute comman
+ROW 0x008e1248 ?                                                       64   1  0 | mid.cpp
+ROW 0x008e1288 ?                                                      106   1  0 | <<---- [HOST EVENT] WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE_EV
+ROW 0x008e12f4 ?                                                      106   1  0 | <<---- [HOST EVENT] WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE_EV
+ROW 0x008e14bc set_app_ie                                              80   2  2 | set_app_ie: frame type %x length %d
+ROW 0x008e162c lm_if::set_cid                                          66   1  7 | lm_if::set_cid(): cid=%d, link_loss_detectors_p=0x%x
+ROW 0x008e1670 regulatory_domain::set_country_code                     20   1  4 | regulatory_domain::set_country_code. country code: 0x%0x 
+ROW 0x008e1898 ?                                                      140   3  0 | In the set_gtk function. key_index: %d, key_usage: %d,cid: %
+ROW 0x008e1978 conn_mgr::set_link_maintain_cfg                        216   3 21 | conn_mgr::set_link_maintain_cfg(): cfg_type = %d, cid = %d
+ROW 0x008e1a68 ?                                                       60   1  0 | !!! Multicast MAC address is now applied !!!
+ROW 0x008e1abc ?                                                       62   1  0 | app_ies.cpp
+ROW 0x008e1afc ?                                                       56   1  0 | app_ies.cpp
+ROW 0x008e1b34 ?                                                      128   7  0 | networkType = WMI_NETTYPE_ADHOC %x
+ROW 0x008e1bb4 set_old_wilocity_vs                                    114   1  1 | set_old_wilocity_vs = flags %x srv_id_1 = %x srv_id_2 = %x
+ROW 0x008e1c30 set_parse_ei                                           326   3  2 | [PRS]set_parse_ei: EI_ID %d stype %x EI_LEN %d 
+ROW 0x008e1ed8 RADIO_MGR::set_primary_channel                          74   1  6 | RADIO_MGR::set_primary_channel (channelID = %d)
+ROW 0x008e1fe8 ?                                                       98   2  0 | Replace RSN IE 0x%x new ie_len %d 
+ROW 0x008e20c0 ?                                                       62   1  0 | basic_sm.cpp
+ROW 0x008e2134 ?                                                      110   2  0 |  New TK is handled:
+ROW 0x008e21d0 set_vendor_specific_version                             92   2  4 | set_vendor_specific_version: OLD m_vs_ver = %d
+ROW 0x008e2454 ?                                                      164   1  0 | LARGE TASK: FUNC address 0x%x, duration %d ms.
+ROW 0x008e2570 ?                                                      108   1  0 | periodic_service.cpp
+ROW 0x008e2624 ?                                                       66   1  0 | fwq_tx.cpp
+ROW 0x008e267c ?                                                      124   2  0 | vring_schdlr.cpp
+ROW 0x008e27a4 ?                                                      134   2  0 | calib_engine.cpp
+ROW 0x008e2874 lm_if::start_link_loss_monitoring                       80   1  5 | lm_if::start_link_loss_monitoring: cid=%d, is_enabled=%d
+ROW 0x008e28ec ka_necessity_detector::start_monitoring                230   5 11 | ka_necessity_detector::start_monitoring(): Detector is not y
+ROW 0x008e29d4 tx_ppdu_ageing_timeout_detector::start_monitoring      184   3 14 | tx_ppdu_ageing_timeout_detector::start_monitoring(): Detecto
+ROW 0x008e2a8c ?                                                       52   1  0 | FIND:: Start session.
+ROW 0x008e2ae8 ?                                                      624  10  0 | LINK_STATS TX_GOODPUT=%d RX_GOODPUT=%d PER=%d
+ROW 0x008e2dbc ?                                                       64   1  0 | fwq_tx.cpp
+ROW 0x008e2dfc ?                                                       50   1  0 | FIND MNGR: STOP. 
+ROW 0x008e2e30 ?                                                       72   1  0 | tx_api.cpp
+ROW 0x008e2e78 ?                                                       48   1  0 | dma_mgr.cpp
+ROW 0x008e2ed0 lm_if::stop_link_loss_monitoring                        74   1  5 | lm_if::stop_link_loss_monitoring: cid=%d, is_enabled=%d
+ROW 0x008e2f2c ?                                                       66   1  0 | lm_if.cpp
+ROW 0x008e2f70 ?                                                       28   1  0 | bad_beacons_detector::stop_monitoring
+ROW 0x008e30cc STREAM_MGR                                             124   2  2 | STREAM_MGR: STREAM [%d] REMOVED.
+ROW 0x008e3338 PS_CFG_SCHEME::switch_active_ps_profile                146   4 20 | PS_CFG_SCHEME::switch_active_ps_profile: %s is already confi
+ROW 0x008e359c ?                                                       48   1  0 | hw_drivers_user_lfsr.c
+ROW 0x008e3614 CALIB_MNGR::system_state_evt_handler                    76   5 14 | CALIB_MNGR::system_state_evt_handler (sys_state_evt=%d,param
+ROW 0x008e3714 POWER_MNGR::system_state_evt_handler                   156   4 15 | POWER_MNGR::system_state_evt_handler() enter_cnt=%d, enter_l
+ROW 0x008e3880 ?                                                       50   2  0 | phy_monitor.cpp
+ROW 0x008e38fc ?                                                       40   1  0 | temp_sense.cpp
+ROW 0x008e394c conn_mgr::system_state_evt_handler                      56   6 25 | conn_mgr::system_state_evt_handler: evt=SYS_STATE_EVT_ASSOC_
+ROW 0x008e3a08 L2MGR::system_state_evt_handler                        150   5  4 | L2MGR::system_state_evt_handler %s , is idle = %s, is AP = %
+ROW 0x008e420c ?                                                       94   1  0 | Temperature measurement command (mode=%d)
+ROW 0x008e426c low_sme::termination_check                              84   2  6 | low_sme::termination_check(termination_evt=%d)
+ROW 0x008e43c8 ?                                                      142  11  0 | sm_pring_connectivity.cpp
+ROW 0x008e45b0 timer_exp_handler                                       96   2  4 | timer_exp_handler: m_temp_enabled is FALSE
+ROW 0x008e4894 DO_WHILE_WITH_MAX_ITER                                  82   1  1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008e4c04 ?                                                       48   1  0 | TX MGMT SRVS: Build disassociate req length = %d 
+ROW 0x008e4c34 ?                                                      136   4  0 | TX MGMT SRVS: Build DMG Beacon len %d
+ROW 0x008e4cbc tx_mgmt_builder_srvs::tx_mgmt_scan_probe_req            78   1  7 | tx_mgmt_builder_srvs::tx_mgmt_scan_probe_req()
+ROW 0x008e4d0c ?                                                      142   2  0 | FIXED SW PROBE RESP header %d bytes, so far %d bytes, pkt at
+ROW 0x008e4df4 ?                                                      154   2  0 | vring_schdlr.cpp
+ROW 0x008e4ea8 ?                                                       52   1  0 | sm_pring_connectivity.cpp
+ROW 0x008e4ef4 ?                                                       98   2  0 | PRING #%d slot optimized recognized at %d.
+ROW 0x008e5020 ?                                                      106   1  0 | tx_queue.c
+ROW 0x008e50f0 txq_ptp_sw_is_fifo_idle                                 62   1  2 | txq_ptp_sw_is_fifo_idle: non_idle 0x%x
+ROW 0x008e516c txq_ring_param_config_queue                            258   5  3 | tx_queue.c
+ROW 0x008e52c4 ?                                                       62   1  0 | txrx_sel - NO RF on current platform!!!
+ROW 0x008e5358 ?                                                       56   3  0 | sm_pring_connectivity.cpp
+ROW 0x008e54d8 RADIO_MGR::unlock                                       36   1  4 | RADIO_MGR::unlock. Handle:0x%x
+ROW 0x008e5568 ?                                                       52   1  0 | RADIO_MGR::unset_primary_channel
+ROW 0x008e5684 vr_obj::update_connected_duration                      104   1  4 | vr_obj::update_connected_duration | cid %d | time_delta %d |
+ROW 0x008e5708 ?                                                      122   1  0 | fw_scheduled_dti.cpp
+ROW 0x008e57a4 ?                                                      122   3  0 | [dashboard] ABFT BF results received for already removed con
+ROW 0x008e5820 ?                                                       72   1  0 | dashboard.cpp
+ROW 0x008e5868 ?                                                      176   2  0 | dashboard.cpp
+ROW 0x008e5918 CALIB_MNGR::update_pcp_ap                               58   2  8 | CALIB_MNGR::update_pcp_ap m_is_pcp_ap=TRUE
+ROW 0x008e5970 ?                                                      102   1  0 | dashboard.cpp
+ROW 0x008e5a2c CALIB_MNGR::update_sys_state                            26   2  8 | CALIB_MNGR::update_sys_state m_system_state=CALIB_SYSTEM_STA
+ROW 0x008e5abc calib_mgr_ut                                           102   2  1 | calib_mgr_ut handler (subtype = %d)
+ROW 0x008e5b24 power_mgr_ut                                            86   2  1 | power_mgr_ut handler (subtype = %d)
+ROW 0x008e5b94 ?                                                       82   1  0 | ut_hw_common.c
+ROW 0x008e5be8 UT_HW_DRIVERS_cmd_handler                              456   7  1 | UT_HW_DRIVERS_cmd_handler ut_subtype_id=0x%x
+ROW 0x008e6514 UT_HW_FLOWS_SUBTYPE_DIG_LOOPBACK_BER_TEST             1714  19  2 | UT_HW_FLOWS_OPERATIONAL_cmd_handler:: ut_subtype_id=0x%x
+ROW 0x008e6e5c UT_HW_MODES_cmd_handler                                340   2  1 | UT_HW_MODES_cmd_handler ut_subtype_id=0x%x
+ROW 0x008e7024 UT_MODULE_HW_FLOWS_SYSAPI_cmd_handler                  116   2  1 | UT_MODULE_HW_FLOWS_SYSAPI_cmd_handler ut_subtype_id=0x%x
+ROW 0x008e70dc brd_if_multi_array::verify_board_file_format_version    86   2 10 | brd_if_multi_array::verify_board_file_format_version: Board 
+ROW 0x008e7134 verify_pbc                                             100   2  4 | verify_pbc: FALSE is_new_vc = %d,is_local_pbc_active %d is_r
+ROW 0x008e71ec verify_ssid                                             84   2  4 | verify_ssid: length %x %x
+ROW 0x008e738c ?                                                       96   1  0 | vring_schdlr.cpp
+ROW 0x008e7418 ?                                                      528   6  0 | ESE CFG CMD. ESE: %d
+ROW 0x008e7628 ?                                                       98   2  0 | l2_mgr::wmi_cmd_handler_get_mgmt_retry_limit
+ROW 0x008e769c ?                                                      130   3  0 | l2_mgr::wmi_cmd_handler_set_mgmt_retry_limit, mng_retry_limi
+ROW 0x008e7774 ?                                                       58   1  0 | Connect IGNORED due to RF-KILL enabled, sending disconnect e
+ROW 0x008e77b0 WMI_DELETE_CIPHER_KEY_CMD                               50   1  1 | WMI_DELETE_CIPHER_KEY_CMD >>>>>>>>>>>ADDR-%04X%08X
+ROW 0x008e77f8 ?                                                      146   3  0 | MAC ADDR-%04X%08X
+ROW 0x008e788c ?                                                       74   1  0 | <<---- [HOST EVENT] WMI_LINK_MAINTAIN_CFG_READ_DONE_EVENTID 
+ROW 0x008e78d8 ?                                                       76   1  0 | <<---- [HOST EVENT] WMI_LINK_MAINTAIN_CFG_WRITE_DONE_EVENTID
+ROW 0x008e7924 wmi_pcp_start_cmd_handler                              184   4  2 | wmi_pcp_start_cmd_handler: bi %d, max assoc sta %d, sec_en %
+ROW 0x008e7a24 ?                                                       94   2  0 |  POWER_MNGR::wmi_ps_dev_profile_cfg_cmd(ps_profile = %d)
+ROW 0x008e7a9c low_sme::wmi_rf_mgmt_cmd_handler                        94   2  6 | low_sme::wmi_rf_mgmt_cmd_handler (cmd->rf_mgmt_type=%d)
+ROW 0x008e7b18 low_sme::wmi_scan_cmd_handler                          136   3  4 | low_sme::wmi_scan_cmd_handler cmd.direct_scan_mac_addr: ADDR
+ROW 0x008e7ba0 ?                                                       80   1  0 | <<---- [HOST EVENT] WMI_SCAN_COMPLETE_EVENTID for devid %d. 
+ROW 0x008e7bf0 ?                                                      316   4  0 | <<---- [HOST EVENT] WMI_RCP_ADDBA_RESP_SENT_EVENTID for devi
+ROW 0x008e7d2c ?                                                      206   4  0 | wmi_handlers.cpp
+ROW 0x008e7e50 wmi_set_passphrase_handler                              86   1  2 | wmi_set_passphrase_handler: SSID LEN %d, PASSPHARSE LEN %d f
+ROW 0x008e7ea8 ?                                                       44   1  0 |  POWER_MNGR::wmi_traffic_deferral_cmd (wakeup_trigger = %d)
+ROW 0x008e7ee0 ?                                                       72   2  0 | WMI_UT_HANDLER:: module_id=0x%x
+ROW 0x008e7f60 ?                                                       78   1  0 | marlon_r_if.cpp
+ROW 0x008e7fdc ?                                                       42   1  0 | OTP write failed!
+ROW 0x008e8014 ?                                                      156   3  0 | RF retry in write verify for add=0x%x retry=%d
+ROW 0x008e85b0 DO_WHILE_WITH_MAX_ITER                                 150   3  2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x008e8648 ?                                                      534   6  0 | Setting L1 enter latency to 16us - EP under switch
+ROW 0x008e89b8 BUILDER_push_dmg_parameters                            100   1  2 | BUILDER_push_dmg_parameters: bss_type %x, privacy %d
+ROW 0x008e8a1c WBE_DRIVER::pcie_boot_init                             928  33  7 | MAIN() BOOT STARTS
+ROW 0x008e8dbc conn::abort                                             80   1  7 | conn::abort(): cid=%d
+ROW 0x008e8e0c scan_mngr::abort_scan                                  100   2 14 | scan_mngr::abort_scan() request !!!
+ROW 0x008e8e70 l2_mgr::aborting_scan                                  104   3 21 | l2_mgr::aborting_scan()
+ROW 0x008e8f00 channels_switch_sm::action_abort_dwelling               46   1  7 | channels_switch_sm::action_abort_dwelling() while dwelling!!
+ROW 0x008e9440 ?                                                       98   1  0 | TODO !!!! install_key ... Need to support key index
+ROW 0x008e94a4 alloc_dband_info                                        36   1  4 | alloc_dband_info()
+ROW 0x008e95b4 ?                                                      180   4  0 | dbi_write shadow DS #%d FAILED
+ROW 0x008e9668 ?                                                      104   1  0 | arc_action_point.c
+ROW 0x008e9d48 find_main_sm::bcon                                     230   5  7 | find_main_sm::bcon()
+ROW 0x008ea0d4 ?                                                       80   1  0 | scan_mngr::calculate_passive_scan_info
+ROW 0x008ea224 check_rf_boardfile                                     162   7  2 |       BOARD FILE INFO:  RF = %d Platform = %x revision = %x
+ROW 0x008ea2c8 ?                                                       92   2  0 | BA retry flow (# %d)
+ROW 0x008ea324 scan_mngr::clean_all_lists                             244   7 42 | scan_mngr::clean_all_lists() m_scanned_list (size: %d)
+ROW 0x008ea418 ?                                                       24   1  0 | Clearing DBI gateway
+ROW 0x008ea460 ba_setup_sm::close_addba_req_retry_timeout_event        38   1  4 | ba_setup_sm::close_addba_req_retry_timeout_event delete even
+ROW 0x008ea488 ba_setup_sm::close_addba_resp_timeout                   38   1  7 | ba_setup_sm::close_addba_resp_timeout() delete addba resp pe
+ROW 0x008ea4b0 ba_setup_sm::close_ba_setup_global_timeout              62   2  7 | ba_setup_sm::close_ba_setup_global_timeout() delete global f
+ROW 0x008ea510 ?                                                       46   1  0 | Config Security Mid[%d] configured: m_wpa_offload = %x, auth
+ROW 0x008ea564 ?                                                       50   1  0 | maintain_sm.cpp
+ROW 0x008ea5a4 scan_mngr::config_dwell_time                           142   5 35 | scan_mngr::config_dwell_time() pf_mode_en
+ROW 0x008ea660 ?                                                      248   4  0 | L2 Offload Rx Decap_trans_type=%d
+ROW 0x008ea758 l2_mgr::connect                                        274   4 21 | l2_mgr::connect() MID = %d. NETWORK TYPE = 0x%X. TEST MODE =
+ROW 0x008ea86c scan_mngr::connect                                     130   3 21 | scan_mngr::connect()
+ROW 0x008eab94 ?                                                      114   3  0 | dbi_write FAILED: address=0x%x, data=0x%x, port=%d
+ROW 0x008eac08 ?                                                       26   1  0 | DEBUG DMA: PEDI DIF DEBUG IF: 0x%x
+ROW 0x008eac48 ?                                                      240  11  0 | ============================================================
+ROW 0x008ead38 ?                                                      226   9  0 | DEBUG MAC RX: CRC_OK=%d CRC_ERR= %d
+ROW 0x008eae1c ?                                                       66   2  0 | DEBUG PCIE: L1 STATE:%d, L1SS STATE:0x%x LTSSM STATE:0x%x
+ROW 0x008eae60 ?                                                       66   2  0 | DEBUG PHY: false_alarms.in_txop_ad=%d    false_alarms.in_txo
+ROW 0x008eaea4 ?                                                      228   7  0 | DEBUG RF: RF tx_gain_config_val=%d    atten_config_val=%d
+ROW 0x008eb190 conn::disconnect                                        68   1  4 | conn::disconnect reason=%d, cid=%d
+ROW 0x008eb1d4 ?                                                       88   2  0 | WMI Disconnect MID:[%d] reason = %d  protocol %d
+ROW 0x008eb22c ?                                                       68   1  0 | disconnect_by_peer:: MID:[%d] reason = %d  protocol %d
+ROW 0x008eb270 ?                                                      248   3  0 | L2MGR - CID %d disconnect done (reason = %d).
+ROW 0x008eb448 ?                                                       74   1  0 | WMI Disconnect MID:[%d] reason = %d  protocol %d
+ROW 0x008eb494 ?                                                      110   2  0 | Disconnect not-exist STA 
+ROW 0x008eb50c discovery_handle_probe_req                             364   6 24 | discovery_handle_probe_req()
+ROW 0x008eb678 discovery_handle_probe_resp                            244   4  8 | discovery_handle_probe_resp()
+ROW 0x008eb76c discovery_is_ssid_approved                             184   6 20 | discovery_is_ssid_approved()
+ROW 0x008eb8dc find_main_sm::first_detection                           44   1  7 | find_main_sm::first_detection()
+ROW 0x008eb9ac lo_power_gc_ctrl                                       462  17  2 | Boot is done from host
+ROW 0x008ebb88 free_dband_info                                         36   1  4 | free_dband_info()
+ROW 0x008ebc00 ?                                                       86   2  0 | FW date = %02d/%02d/%d
+ROW 0x008ebc58 ?                                                       56   1  0 | FW version = %d.%d.%d
+ROW 0x008ebda8 scan_mngr::handle_abft_bf_result_in_scan               222   5 28 | scan_mngr::handle_abft_bf_result_in_scan()
+ROW 0x008ebe88 handle_abft_event                                       56   1  4 | handle_abft_event() Discovery A-BFT link up status %d (BF St
+ROW 0x008ebee4 scan_mngr::handle_link_up_event                        238   7 42 | scan_mngr::handle_link_up_event() SM STATE = %d, m_active_pr
+ROW 0x008ec190 ?                                                      266  10  0 | hwf_rf_xpm_block_access_check_inputs
+ROW 0x008ec29c hwf_rf_xpm_read_block                                  108   1  4 | hwf_rf_xpm_read_block(): XPM read failure from cur_xpm_addr=
+ROW 0x008ec308 hwf_rf_xpm_read_byte                                    88   2  8 | hwf_rf_xpm_read_byte(): xpm read success xpm_address=0x%x, x
+ROW 0x008ec360 ?                                                      132   5  0 | hwf_rf_xpm_single_byte_access_check_inputs
+ROW 0x008ec3e4 ?                                                      120   4  0 | BASEBAND Type is not defined!!!
+ROW 0x008ec45c ?                                                      152   3  0 |       Identify RF Type: device_id=%d val1=0x%X val2=0x%X
+ROW 0x008ec754 ?                                                      138   2  0 | ASSOC RESP fix fields are built
+ROW 0x008ec7e0 ?                                                      126   2  0 | ASSOC RESP TLV %d aid %d
+ROW 0x008ec920 ieee80211_mgt_information_response_construct           262   2  4 | Send Information Response to ADDR-%04X%08X
+ROW 0x008eca84 ?                                                      104   3  0 | MGMT TX Probe resp TSF length %d total %d
+ROW 0x008ecaec ?                                                      232   5  0 | MGMT TX Probe resp ssid IE length %d total %d
+ROW 0x008ecd10 ?                                                      626  11  0 | FIXED MGMT TX Probe resp use host SSID IE length %d total %d
+ROW 0x008ecf84 ?                                                      122   1  0 | Initializing RF_KILL_SM with W_DISABLE
+ROW 0x008ed290 ?                                                      120   1  0 | connection.cpp
+ROW 0x008ed308 ?                                                      144   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/fw/inc/tx_api.h
+ROW 0x008ed398 ?                                                      154   2  0 | [L2MGR] OOB mode 
+ROW 0x008ed87c ?                                                       92   1  0 | HOST EVENT (WMI_READY_EVENTID=0x1001): Notify FW ready (is O
+ROW 0x008ed8d8 WBE_DRIVER::link_down                                  352   3  8 | WBE_DRIVER::link_down DOCK PERST is 1!!
+ROW 0x008eda38 WBE_DRIVER::link_down_notif                             66   2  5 | wbe_driver.cpp
+ROW 0x008edb14 WBE_DRIVER::link_up_notif                              120   5 20 | wbe_driver.cpp
+ROW 0x008edb8c conn::linkup_ntf                                        46   1  4 | conn::linkup_ntf status=%d
+ROW 0x008edbbc ?                                                       94   3  0 | listen()
+ROW 0x008edc48 l2_mgr::lmac_high_false_alarm_evt_handler               76   2  8 | l2_mgr::lmac_high_false_alarm_evt_handler locking secondary
+ROW 0x008edc94 ?                                                      114   4  0 | Initializing uCode interface
+ROW 0x008edd08 l2_mgr::lmac_new_link_evt_handler                      338  10 70 | l2_mgr::lmac_new_link_evt_handler() L2MGR New link event han
+ROW 0x008ede5c ?                                                      188   2  0 | LMAC READY :: driver_is_up_sts %x 
+ROW 0x008edf58 ?                                                       88   1  0 | log.c
+ROW 0x008ee7fc ?                                                      146   3  0 | Send DISASSOC request  len %d 
+ROW 0x008ee90c ?                                                       90   3  0 | OTP params_0. seq_num    = %x,  pcb_id8      = %x
+ROW 0x008ee994 p2p_cfg                                                 54   1  4 | p2p_cfg()
+ROW 0x008eea68 ?                                                       88   1  0 | <<---- [HOST EVENT] WMI_PBSS_JOINED_EVENTID for Direct Conne
+ROW 0x008eeac0 ?                                                      378   4  0 | Sparrow wPCIeR support for backward compatibility with Marlo
+ROW 0x008eec58 ?                                                      112   1  0 | PCIe serdes configuration shlicht
+ROW 0x008eee64 pcp_restart                                             92   2  8 | pcp_restart() m:%d, s:%d <<<< security_en = %d >>>>>
+ROW 0x008eeec0 l2_mgr::pcp_start                                       86   1  5 | l2_mgr::pcp_start: number_of_pcps = %d. is_go %d
+ROW 0x008eef18 pcp_start                                               88   2  4 | pcp_start()
+ROW 0x008eef70 l2_mgr::pcp_stop                                       162   3  5 | pcp_stop: m_pcp_cnt = %d
+ROW 0x008ef014 pcp_stop                                                30   1  4 | pcp_stop()
+ROW 0x008ef034 scan_mngr::prob_done                                   400  12 77 | scan_mngr::prob_done()
+ROW 0x008ef694 scan_mngr::probe_resp_ind                              110   2 14 | scan_mngr::probe_resp_ind() m_active_probs=%d
+ROW 0x008ef784 push_cap_info                                           52   1  2 | push_cap_info: >>>>>> with BSS TYPE = 0x%x and PRIVACY = 0x%
+ROW 0x008ef7b8 ?                                                       32   1  0 | Pushed EDCA IE length %d
+ROW 0x008ef804 ?                                                       38   1  0 | Pushed QoS Capability IE [%x] length 3 
+ROW 0x008ef898 ?                                                       66   1  0 | frame_builder.cpp
+ROW 0x008ef90c ?                                                      368  14  0 | wbe_driver.cpp
+ROW 0x008efa7c ?                                                      108   3  0 | PCIE DEBUG INTERRUPT port1_tx_fifo_pcpl_full_int (dbg_csu_lo
+ROW 0x008efae8 WBE_DRIVER::pxe_isoc_in_dir_bypass                     168   4  5 | WBE_DRIVER::pxe_isoc_in_dir_bypass: %d 
+ROW 0x008efcc0 scan_mngr::resume_scan                                  44   1  7 | scan_mngr::resume_scan()
+ROW 0x008efcec ?                                                       98   3  0 | Function %s: 
+ROW 0x008efd74 discovery::rx_start                                     54   1  7 | discovery::rx_start()
+ROW 0x008efdac discovery::rx_stop                                      48   1  7 | discovery::rx_stop()
+ROW 0x008efddc ?                                                       50   1  0 | rx_queue.c
+ROW 0x008efe50 ?                                                       72   1  0 | Boot Loader version = %d.%d.%d
+ROW 0x008efe98 scan_mngr::save_initial_passive_scan_info               62   1  7 | scan_mngr::save_initial_passive_scan_info()
+ROW 0x008efed8 l2_mgr::scan_abort                                     122   3 15 | l2_mgr::scan_abort: scan is not active. Sending done event
+ROW 0x008eff54 scan_abort                                              38   1  4 | scan_abort()
+ROW 0x008eff7c l2_mgr::scan_complete_handle                           130   2 11 | l2_mgr::scan_complete_handle()
+ROW 0x008f0000 scan_mngr::scan_done                                   210   4 28 | scan_mngr::scan_done()
+ROW 0x008f00d4 scan_resume                                             54   2  8 | scan_resume()
+ROW 0x008f0134 ?                                                       46   1  0 | Start scan <ts: %d>
+ROW 0x008f0164 scan_stop                                               30   1  4 | scan_stop()
+ROW 0x008f01ac ?                                                       94   3  0 | search()
+ROW 0x008f020c search_scan_elem_in_list                               120   1  1 | search_scan_elem_in_list MAC:ADDR-%04X%08X
+ROW 0x008f033c ?                                                       68   1  0 | <<---- [HOST EVENT] WMI_P2P_CFG_DONE_EVENTID for midid %d.
+ROW 0x008f0380 ?                                                      302   3  0 | layer2_mgr.cpp
+ROW 0x008f04b0 ?                                                      106   1  0 | <<---- [HOST EVENT] WMI_DATA_PORT_OPEN_EVENTID for CID %d.
+ROW 0x008f051c ?                                                      114   1  0 | <<---- [HOST EVENT] WMI_DISCONNECT_EVENTID wmi reason %d, pr
+ROW 0x008f05a0 ?                                                       48   1  0 | <<---- [HOST EVENT] WMI_DISCOVERY_STARTED_EVENTID for midid 
+ROW 0x008f05d0 ?                                                       64   1  0 | <<---- [HOST EVENT] WMI_DISCOVERY_STOPPED_EVENTID for midid 
+ROW 0x008f0610 ?                                                       68   1  0 | <<---- [HOST EVENT] WMI_LISTEN_STARTED_EVENTID for midid %d.
+ROW 0x008f0654 ?                                                      202   2  0 | <<---- [HOST EVENT] WMI_ACS_PASSIVE_SCAN_COMPLETE_EVENTID dw
+ROW 0x008f0720 ?                                                       78   1  0 | <<---- [HOST EVENT] WMI_PBSS_LEAVE_EVENTID pbss leave event 
+ROW 0x008f0770 l2_mgr::send_pcp_start_status_evt                      132   3 11 | l2_mgr::send_pcp_start_status_evt(WMI_FW_STATUS_FAILURE): nu
+ROW 0x008f07f4 ?                                                       54   1  0 | <<---- [HOST EVENT] WMI_PCP_STOPPED_EVENTID for midid %d.
+ROW 0x008f082c scan_mngr::send_prob_req                               220   4 14 | scan_mngr::send_prob_req() to:  ADDR-%04X%08X
+ROW 0x008f0908 ?                                                      120   2  0 | Sending probe rsp. len %d (%x --> %x)
+ROW 0x008f0980 ?                                                       68   1  0 | <<---- [HOST EVENT] WMI_SCAN_COMPLETE_EVENTID status %d, dev
+ROW 0x008f09c4 ?                                                      134   2  0 | Sending probe req len %d 
+ROW 0x008f0a4c ?                                                       70   1  0 | <<---- [HOST EVENT] WMI_SEARCH_STARTED_EVENTID for midid %d 
+ROW 0x008f0a94 send_sw_packet                                         174   4 12 | send_sw_packet() wmi_cmd_handler_sw_tx_req - ADDR 1: ADDR-%0
+ROW 0x008f0b44 ?                                                       70   1  0 | <<---- [HOST EVENT] WMI_SW_TX_COMPLETE_EVENTID for devid %d 
+ROW 0x008f0b8c ?                                                       72   1  0 | <<---- [HOST EVENT] WMI_VRING_CFG_DONE_EVENTID for devid %d.
+ROW 0x008f0bd4 ?                                                       68   1  0 | <<---- [HOST EVENT] WMI_VRING_EN_EVENTID for VRING %d.
+ROW 0x008f0d18 scan_mngr::sm_dwelling_ended                           130   3 21 | scan_mngr::sm_dwelling_ended()
+ROW 0x008f0d9c scan_mngr::sm_ready_for_dwelling                       104   2 14 | scan_mngr::sm_ready_for_dwelling()
+ROW 0x008f0e04 sort_scan_ch_list                                      144   3  4 | scan_mngr.cpp
+ROW 0x008f0ee0 ?                                                      376   8  0 | SPI READ: waited %d usec for interface !!!
+ROW 0x008f12f8 start_find_session                                      94   3  4 | start_find_session()
+ROW 0x008f141c ?                                                       88   1  0 | [L2MGR] MAC %d started : ADDR-%04X%08X
+ROW 0x008f1474 scan_mngr::start_scan                                  468   9 49 | scan_mngr::start_scan() Not supported scan type: %d, Discove
+ROW 0x008f1730 find_main_sm::stop                                      96   2  7 | find_main_sm::stop()  unlocking radio 0x%x
+ROW 0x008f1790 scan_mngr::stop_dwelling                                38   1  7 | scan_mngr::stop_dwelling()
+ROW 0x008f17b8 stop_find_session                                       32   1  4 | stop_find_session()
+ROW 0x008f17d8 WBE_DRIVER::CLOSE                                       32   1  4 | WBE_DRIVER::CLOSE IDLES
+ROW 0x008f1a9c discovery::tsf_wa                                      100   2 14 | discovery::tsf_wa() WA Config  set_primary_channel = %d, ch 
+ROW 0x008f1b00 ?                                                      320   6  0 | ASSOC REQ fields %d bytes, so far %d bytes, pkt at 0x%8X
+ROW 0x008f1c40 ?                                                      324   6  0 | ASSOC RESP header %d bytes, so far %d bytes, pkt at 0x%8X
+ROW 0x008f1d84 tx_mgmt_get_ie                                          94   1  2 | tx_mgmt_get_ie: id %d, len %d.
+ROW 0x008f1de4 ?                                                      148   2  0 | OUI is WSC IE Len %d.
+ROW 0x008f1e78 ?                                                      214   3  0 | PROBE REQ internal IEs are built
+ROW 0x008f1f50 ?                                                      292   5  0 | PROBE RESP header %d bytes, so far %d bytes, pkt at 0x%8X
+ROW 0x008f2074 ?                                                       56   2  0 | tx_queue.c
+ROW 0x008f22fc ?                                                      116   1  0 | tx_queue.c
+ROW 0x008f295c validate_connect                                       126   5 10 | validate_connect: Error. FW_CHANNEL_4_64800MHZ isn't support
+ROW 0x008f29dc l2_mgr::validate_scan                                  238   9 63 | l2_mgr::validate_scan() failed, non-existent devid
+ROW 0x008f2acc wait_for_disconnect                                    108   3 12 | wait_for_disconnect()- disassoc wasn't sent, continue to flu
+ROW 0x008f2b48 ?                                                       44   1  0 | layer2_mgr.cpp
+ROW 0x008f2b74 ?                                                       54   1  0 | layer2_mgr.cpp
+ROW 0x008f2bac ?                                                      192   4  0 | layer2_mgr.cpp
+ROW 0x008f2c88 ?                                                       82   1  0 | <<---- [HOST EVENT] WMI_GET_PCP_CHANNEL_EVENTID for devid %d
+ROW 0x008f2cdc ?                                                       80   1  0 | <<---- [HOST EVENT] WMI_PCP_FACTOR_EVENTID for devid %d.
+ROW 0x008f2d2c ?                                                       70   1  0 | <<---- [HOST EVENT] WMI_GET_SSID_EVENTID for devid %d.
+ROW 0x008f2d74 l2_mgr::wmi_cmd_handler_p2p_cfg                        148   3  8 | l2_mgr::wmi_cmd_handler_p2p_cfg - If connected or in GO mode
+ROW 0x008f2e08 ?                                                       70   1  0 | Illegal pmc op: 0x%08X
+ROW 0x008f2e50 ?                                                      126   3  0 | Error in MAC address !!!
+ROW 0x008f2ed0 ?                                                      864  16  0 | layer2_mgr.cpp
+ROW 0x008f3230 ?                                                       82   1  0 | layer2_mgr.cpp
+ROW 0x008f3284 ?                                                       76   1  0 | [Mid:%d] I'm ROOT: ADDR-%04X%08X
+ROW 0x008f32d0 FW_CHANNEL_4_64800MHZ                                   70   2  1 | FW_CHANNEL_4_64800MHZ is not supported
+ROW 0x008f3318 l2_mgr::wmi_cmd_handler_set_ssid                        60   1  4 | l2_mgr::wmi_cmd_handler_set_ssid - If connected or in GO mod
+ROW 0x008f3374 l2_mgr::wmi_cmd_handler_start_listen                    68   1  4 | l2_mgr::wmi_cmd_handler_start_listen - If connected or in GO
+ROW 0x008f33b8 l2_mgr::wmi_cmd_handler_start_search                    68   1  4 | l2_mgr::wmi_cmd_handler_start_search - If connected or in GO
+ROW 0x008f3430 ?                                                      312   5  0 | SW failed TX MGMT: too big packet.
+ROW 0x008f3568 WMI_ADD_CIPHER_KEY_CMD                                 422   6  3 | WMI_ADD_CIPHER_KEY_CMD: CID[%d]ADDR-%04X%08X
+ROW 0x008f3710 l2_mgr::wmi_scan_cmd                                   168   2 14 | l2_mgr::wmi_scan_cmd() SCAN CMD (Type = %d, Number of channe
+ROW 0x008f37b8 encap_trans_type                                       452  11  1 | NEW VRING (TID %d) to CID %d cannot be proceed - CID is not 
+ROW 0x008f397c ?                                                       82   1  0 | read size is outside of otp boundaries!
+ROW 0x008f39d0 xpm_read_cnt                                           112   3  1 | xpm_read_cnt FAILED
+ROW 0x008f3a40 ?                                                      100   2  0 | read size is outside of otp boundaries!
+ROW 0x008f3aa4 ?                                                       92   1  0 | write  0x%x to 0x%x
+ROW 0x008f3b00 ?                                                       56   1  0 | marlon_r_if.cpp
+ROW 0x00921930 ?                                                       96   1  0 | basic_if.cpp
+ROW 0x00921e2e ?                                                      178   3  0 | background_task.c
+ROW 0x00921fc0 ?                                                      202   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x0092211c bf_clear_all_sta                                       134   1  4 | bf_clear_all_sta() tail: %d, head: %d, non_idle_mask: 0x%x
+ROW 0x009222cc ?                                                      230   1  0 | beamforming_sm.c
+ROW 0x00922448 ?                                                       96   1  0 | beamforming_sm.c
+ROW 0x009225ec ?                                                      164   4  0 | beamforming_sm.c
+ROW 0x00923930 ?                                                      590   1  0 | beamforming_flows_brp.c
+ROW 0x00923c74 ?                                                      324   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/bf_gpc_service.
+ROW 0x00923de0 bti_worker::bti_transmitter_beacon_sweep_flow         1564   6 14 | bti_worker::bti_transmitter_beacon_sweep_flow() randomize be
+ROW 0x00924434 calc_awake_tsf                                         272   1  2 | calc_awake_tsf: %x
+ROW 0x00924578 ?                                                      596   2  0 | cf_end_flow.c
+ROW 0x00924938 ?                                                     1172   6  0 | beamforming_flows_brp.c
+ROW 0x00924e6c ?                                                       58   1  0 | direct_tx.c
+ROW 0x00924ef4 ?                                                      134   1  0 | direct_tx.c
+ROW 0x00924fe8 ?                                                      192   1  0 | sxd_hal.c
+ROW 0x00925120 disable_tsf_event                                       98   1  4 | disable_tsf_event()
+ROW 0x0092522c ?                                                      796   9  0 | IDLE SM histogram on SYSASSERT (%d iterations with 16 CLK de
+ROW 0x00925548 ?                                                      904   8  0 | Crash TSF: curr tsf 0x%08x %08x
+ROW 0x009258f4 ?                                                      204   3  0 | fw_mailbox.cpp
+ROW 0x00925dd8 ?                                                      152   1  0 | sending event=0x%x ,curr tsf 0x%08x %08x
+ROW 0x00925ea4 ?                                                      704   1  0 | aw_worker.cpp
+ROW 0x0092639c get_selected_rf_sector_index_cmd_handler               178   2  4 | get_selected_rf_sector_index_cmd_handler(): Invalid sector t
+ROW 0x00926490 ?                                                       96   1  0 | bi_ap_mon_if.cpp
+ROW 0x00926608 ?                                                      566   1  0 | rx_funcs_optimized_size.c
+ROW 0x00926858 ?                                                      158   2  0 | bi_manager.cpp
+ROW 0x00926a10 ?                                                       70   1  0 | hw_drivers_abif.c
+ROW 0x00926a58 ?                                                      118   2  0 | hw_drivers_abif.c
+ROW 0x00926b00 ?                                                       94   1  0 | hw_drivers_abif.c
+ROW 0x00926bc0 ?                                                      146   1  0 | hw_drivers_dma.c
+ROW 0x00926d34 ?                                                      154   1  0 | hw_drivers_mac.c
+ROW 0x00926dd0 ?                                                      146   1  0 | hw_drivers_mac.c
+ROW 0x00926ef4 hwd_phy_init                                           206   2  4 | hwd_phy_init() The Same as RESET Value: Address = 0x%08X, Da
+ROW 0x00927014 ?                                                      134   1  0 | hw_drivers_phy.c
+ROW 0x0092709c DO_WHILE_WITH_MAX_ITER                                 434   6  1 | DO_WHILE_WITH_MAX_ITER OCCUR
+ROW 0x009272b8 ?                                                       66   1  0 | hw_drivers_phy.c
+ROW 0x009272fc ?                                                       66   1  0 | hw_drivers_phy.c
+ROW 0x00927340 ?                                                      302   4  0 | hw_drivers_phy.c
+ROW 0x0092749c ?                                                       70   1  0 | hw_drivers_phy.c
+ROW 0x00927564 DO_WHILE_WITH_MAX_ITER                                 960  12  3 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+ROW 0x00927944 ?                                                      540   3  0 | hw_modes_mac.c
+ROW 0x00927e6c ?                                                       84   1  0 | fw_mailbox.cpp
+ROW 0x009283dc ?                                                      342   2  0 | ABORT unexpected BF of new sta  sta_id=%d request_fifo_head=
+ROW 0x00928534 ?                                                       84   2  0 | bi_manager.cpp
+ROW 0x00928730 ?                                                      104   1  0 | bi_manager.cpp
+ROW 0x009287ec ?                                                      266   2  0 | basic_sm.cpp
+ROW 0x00928948 ?                                                       82   2  0 | bi_manager.cpp
+ROW 0x009289a0 ?                                                       66   1  0 | bi_manager.cpp
+ROW 0x009289e4 ?                                                       62   1  0 | bi_manager.cpp
+ROW 0x00928a58 ?                                                       66   1  0 | bi_manager.cpp
+ROW 0x00928bd4 ?                                                      196   1  0 | rx_funcs.c
+ROW 0x00928e68 ?                                                      194   2  0 | internal_tx.c
+ROW 0x00929738 ?                                                      570   7  0 | l1_task.c
+ROW 0x00929974 ?                                                      598   1  0 | l2_task.c
+ROW 0x00929bfc ?                                                      710   1  0 | l2_task.c
+ROW 0x00929f54 mailbox_debug_dump                                     366   4  6 | mailbox_debug_dump: m_ctrl->ring_tail_ptr - 0x%x, m_ctrl->ri
+ROW 0x0092a404 ?                                                      138   1  0 | mtp_service.cpp
+ROW 0x0092a6f4 ?                                                      558   3  0 | Received bigger NAV than Current. Frame type: %d, Frame subt
+ROW 0x0092aa7c ?                                                      158   1  0 | rx_funcs.c
+ROW 0x0092ac60 perform_bti_pm_cfg                                     312   1  4 | perform_bti_pm_cfg() - force wakeup
+ROW 0x0092ad98 ?                                                      436   2  0 | power_manager.cpp
+ROW 0x0092af4c perform_shallow_sleep                                  592   4  6 | perform_shallow_sleep(ENTER) m_last_shallow_sleep_sob: %x, s
+ROW 0x0092b308 psc_pending_agreement_cmd                              218   2  4 | psc_pending_agreement_cmd() sleep_cycle: %x, bi_start_time: 
+ROW 0x0092b58c ?                                                      174   1  0 | bf_gpc_service.cpp
+ROW 0x0092b9d0 ?                                                      250   1  0 | rfc_ctrl.c
+ROW 0x0092becc ?                                                      336   4  0 | enable RS = %d
+ROW 0x0092c05c ?                                                      300   3  0 | rate_search.c
+ROW 0x0092c1fc ?                                                      124   1  0 | rate_search.c
+ROW 0x0092c34c ?                                                      230   1  0 | rate_search.c
+ROW 0x0092c9b0 ?                                                      138   1  0 | bf_gpc_service.cpp
+ROW 0x0092ca3c ?                                                      976   1  0 | abft_worker_responder_funcs.cpp
+ROW 0x0092ce9c ?                                                     1596   2  0 | rx_flow.c
+ROW 0x0092d740 ?                                                     1028   1  0 | rx_funcs_optimized_size.c
+ROW 0x0092de68 ?                                                     2508   2  0 | rx_flow.c
+ROW 0x0092eac0 ?                                                      902   1  0 | GRANT DETECTED!!
+ROW 0x0092ee48 ?                                                       70   2  0 | rx_flow.c
+ROW 0x0092f280 ?                                                     2208   3  0 | rx_funcs.c
+ROW 0x00930150 ?                                                      322   3  0 | basic_if.cpp
+ROW 0x009304c8 ?                                                       60   1  0 | bi_ap_mon_if.cpp
+ROW 0x00930608 ?                                                      162   1  0 | sxd_hal.c
+ROW 0x009306ac ?                                                      190   1  0 | sxd_hal.c
+ROW 0x00930770 ?                                                      508   1  0 | Set new AW. TBTT TSF: %x, tbtt_start_time: %x
+ROW 0x00930a40 set_selected_rf_sector_index_cmd_handler               198   2  4 | set_selected_rf_sector_index_cmd_handler(): Invalid sector t
+ROW 0x00930c28 set_tsf_event                                          136   1  4 | set_tsf_event()
+ROW 0x00931dcc ?                                                      166   1  0 | sxd_hal.c
+ROW 0x00931e74 ?                                                      130   1  0 | sxd_hal.c
+ROW 0x00931f8c ?                                                     1108   2  0 | BI2 event
+ROW 0x00932488 traffic_deferral_cfg_cmd_handler                       128   1  3 | traffic_deferral_cfg_cmd_handler (deferred = %d) (wakeup_tri
+ROW 0x009329fc ?                                                     1026   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x00932e00 ?                                                      156   1  0 | beacon_tx.c
+ROW 0x00932f8c ?                                                      584   2  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x00933568 ?                                                      608   1  0 | tx_flows_optimized_size.c
+ROW 0x009337c8 tx_initiator_flow                                      552   6 24 | tx_initiator_flow() Check for busy2 (CCA) or energy (RSSI) a
+ROW 0x00933e90 ?                                                      156   1  0 | tx_flows_optimized_size.c
+ROW 0x00933f90 ?                                                      268   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x00934884 txop_initiator_open_txop_flow                          900   2  4 | tx_slot_flows.c
+ROW 0x00934cdc ?                                                      208   1  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x00934de4 non_idle_mask                                          388   5  4 | txrx_api_cmd_handler.c
+ROW 0x00934fdc txrx_umac_if_long_range_cmd_handler                     78   1  1 | txrx_umac_if_long_range_cmd_handler Long Range is now enable
+ROW 0x00935068 ?                                                      414   2  0 | txrx_api_cmd_handler.c
+ROW 0x009353a4 ?                                                      106   1  0 | txrx_api_cmd_handler.c
+ROW 0x00935438 ?                                                      154   1  0 | txrx_api_cmd_handler.c
+ROW 0x009354d4 ?                                                      784   2  0 | /home/gatis/sdk/sparrow/fwsrc4/src/ucode/inc/sxd_utils.h
+ROW 0x009357e4 ?                                                       48   1  0 | txrx_api_cmd_handler.c
+ROW 0x00935dd4 ?                                                       80   1  0 | beamforming_substate_sm.c
+ROW 0x00935f54 ?                                                      288   1  0 | beamforming_flows_txss.c
+ROW 0x00936074 ?                                                      350   2  0 | txss.c
+ROW 0x0093635c ?                                                       64   1  0 | beamforming_substate_sm.c
+ROW 0x009363dc ?                                                      174   1  0 | beamforming_flows_txss.c
+ROW 0x00936864 ?                                                      716   1  0 | txss.c
+ROW 0x00936cec ?                                                       84   1  0 | ucode_pm.c
+ROW 0x00936dd0 umac_if_cmd_handler                                    162   3  1 | umac_if_cmd_handler FW command 0x%x
+ROW 0x009375ec ?                                                      402   1  0 | bti_worker.cpp
+ROW 0x009377bc ?                                                       92   1  0 | sxd_hal_optimized_size.c
+ROW 0x00937818 ?                                                      184   1  0 | txss_func.c
+ROW 0x00937b84 ?                                                      768   4  0 | Error: MTP Queue is empty
+ROW 0x00937f68 ?                                                      162   1  0 | log.c
