@@ -1,0 +1,494 @@
+# Имена функций FW 4.1.0.1000, выведенные из ЛОГ-СТРОК самой прошивки.
+# Источник: таблица строк fw-лога (запись 101 образа MikroTik), ссылки на неё
+# найдены в коде по кодировке limm 0x01000000|offset (полуслова переставлены).
+# Формат: адрес  размер  предлагаемое_имя  # строк_в_функции | доказательство
+# Всего: 488 функций (только те, что в SYMS-4100 были FUN_*).
+
+0x8c14b4   250  WARNING_setting_to_MAX                             # 4 | WARNING- setting to MAX value (31) due to no change in comLoop
+0x8c15e8   116  Awake_TSF_LED_interrupt                            # 1 | Awake TSF LED interrupt expired! TSF: 0x%08x:%08x
+0x8c1b44   188  action_CID_action_x                                # 2 | action - CID[%d] action 0x%x, category_code 0x%x 
+0x8c1d5c    78  action_no_ack_action                               # 2 | action no ack - action 0x%x, category_code 0x%x 
+0x8c1dac    66  vring_schdlr_cpp                                   # 1 | vring_schdlr.cpp
+0x8c1e44   300  vring_schdlr_cpp                                   # 5 | vring_schdlr.cpp
+0x8c1f70    88  llist_cpp                                          # 2 | llist.cpp
+0x8c1fc4    84  llist_cpp                                          # 2 | llist.cpp
+0x8c2018   144  sorted_llist_cpp                                   # 2 | sorted_llist.cpp
+0x8c20a4   148  llist_cpp                                          # 5 | llist.cpp
+0x8c2138    88  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8c2190   204  Update_TX_Beacon_mid                               # 3 | Update TX Beacon mid %d, send length %d, PCP_assoc_ready %d
+0x8c2568    80  vring_schdlr_cpp                                   # 1 | vring_schdlr.cpp
+0x8c276c   218  vring_schdlr_cpp                                   # 3 | vring_schdlr.cpp
+0x8c2848   164  Initiator_ADDBA_REQ_message                        # 3 | Initiator ADDBA REQ message - moved on thru Driver.
+0x8c2944    66  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8c2ac8    66  u_schd_cpp                                         # 1 | u_schd.cpp
+0x8c2b18    80  conn_mgr_cpp                                       # 1 | conn_mgr.cpp
+0x8c2b88    72  u_schd_cpp                                         # 1 | u_schd.cpp
+0x8c2bf4    66  home_gatis_sdk_sparrow                             # 1 | /home/gatis/sdk/sparrow/fwsrc4/src/fw/inc/rx_api.h
+0x8c2c38    70  basic_if_cpp                                       # 1 | basic_if.cpp
+0x8c2d04    46  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8c2d4c   124  Reject_MID_opening_ID                              # 2 | Reject MID opening - ID %d is already exist.
+0x8c2fe4   152  Found_V_ring_to                                    # 1 | Found #%d V-ring to run.
+0x8c30fc    98  mid_cpp                                            # 2 | mid.cpp
+0x8c3838    74  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8c3884    72  FW_DRIVER_race_WMI_VRING_BA_EN_CMD                 # 1 | FW-DRIVER race. WMI_VRING_BA_EN_CMD for vring: %d, after disconnect - ignoring
+0x8c38dc   116  ADDBA_RESP_send_tid                                # 1 | ADDBA RESP send: tid %d , token %d, STATUS REFUSED
+0x8c3ad4   116  Bad_instruction_attempt_to                         # 5 | Bad instruction (attempt to access ICCM).
+0x8c3c14   132  Wait_start_b_idx_tail_idx                          # 2 | Wait start_b_idx != tail_idx ...
+0x8c3f4c    52  FIND_Link_up                                       # 1 | FIND:: Link up....
+0x8c3fdc   326  BIND_Vring_Index_Vring                             # 7 | BIND:: Vring Index: %x. Vring availability: %x. Mtp/Bap availability: %x
+0x8c438c    80  FINAL_Result_m_capinfo_BSS                         # 1 |  FINAL -> Result m_capinfo %x (BSS TYPE = 0x%x, privacy %x)
+0x8c4938    88  connection_cpp                                     # 1 | connection.cpp
+0x8c4990   110  connection_cpp                                     # 1 | connection.cpp
+0x8c4d20    90  vring_schdlr_cpp                                   # 2 | vring_schdlr.cpp
+0x8c5034   178  Switching_to_channel                               # 1 | Switching to channel %d
+0x8c589c   154  No_CID_index_to                                    # 3 | No CID index to reuse found.
+0x8c5a34    58  bad_beacons_detector_cpp                           # 1 | bad_beacons_detector.cpp
+0x8c5a70    90  ka_necessity_detector_cpp                          # 1 | ka_necessity_detector.cpp
+0x8c5acc    74  tx_ppdu_ageing_timeout_detector_cpp                # 1 | tx_ppdu_ageing_timeout_detector.cpp
+0x8c5b48    64  calib_mngr_cpp                                     # 1 | calib_mngr.cpp
+0x8c5cac   186  MARLON_COMM_TEST_FAILED                            # 2 | MARLON COMM TEST FAILED: EXPECTED=0x%X   ACTUAL=0x%X
+0x8c5df4   148  FIND_Offload_configured_with                       # 3 | FIND:: Offload = %d configured with BI %d msec, mode %d.
+0x8c611c   318  dma_mgr_cpp                                        # 3 | dma_mgr.cpp
+0x8c6300    82  vring_schdlr_cpp                                   # 1 | vring_schdlr.cpp
+0x8c64bc    56  Checking_RF_state_com_test                         # 1 | Checking RF state: com_test=%d, RX_GAIN_RTYPE_TBL_[13]=0x%x (expected 0xc45)
+0x8c655c   124  mid_cpp                                            # 2 | mid.cpp
+0x8c66a4    84  basic_calib_cpp                                    # 1 | basic_calib.cpp
+0x8c6794   340  hw_flows_calib_lo_leakage_cpp                      # 2 | hw_flows_calib_lo_leakage.cpp
+0x8c6c70   112  mem_pool_cpp                                       # 3 | mem_pool.cpp
+0x8c6d68    96  FIND_MNGR_Detect_discovery                         # 1 | FIND MNGR: Detect discovery beacon BSSID: %08x%04x discovery_mode=%d.
+0x8c7164    56  connection_cpp                                     # 1 | connection.cpp
+0x8c75a8   276  stream_mgr_cpp                                     # 7 | stream_mgr.cpp
+0x8c771c    50  FIND_DEL_DMG_DISCOVERY                             # 1 | FIND:: >>>>>>>> DEL DMG DISCOVERY BEACOM <<<<<<<<
+0x8c7794   174  u_schd_cpp                                         # 2 | u_schd.cpp
+0x8c7858    44  Remove_from_VR_SCHDLR_V                            # 1 | Remove from VR_SCHDLR #%d V-ring.
+0x8c7884   126  STARTED_DELETE_BCAST_VRING                         # 2 | STARTED DELETE BCAST VRING. Vring: %d, Pring: %d
+0x8c7904    74  vring_schdlr_cpp                                   # 1 | vring_schdlr.cpp
+0x8c7ab4    88  PBSS_Disconnection_MAC_ADDR                        # 1 | PBSS Disconnection: MAC-ADDR-%04X%08X
+0x8c7c3c    68  MID_Disconnection_cmd_for                          # 1 | MID#%d:: Disconnection cmd for CID %d,  reason %d.
+0x8c7c80   350  discovery_cpp                                      # 2 | discovery.cpp
+0x8c7de0   130  txrx_manager_cpp                                   # 1 | txrx_manager.cpp
+0x8c7e64    52  hw_drivers_dma_c                                   # 1 | hw_drivers_dma.c
+0x8c7f68    40  DPAL_CPL_TO_Event                                  # 1 | DPAL CPL TO Event
+0x8c8220    66  Stack_dump_beginning_at                            # 2 | Stack dump beginning at 0x%x:
+0x8c8264    92  UCODE_Stack_dump_beginning                         # 2 | UCODE Stack dump beginning at 0x%x:
+0x8c82c0   352  NNL_line                                           # 7 | [NNL]  line: %d
+0x8c8420   138  To_enable_WMI_commands                             # 1 | To enable WMI commands change g_sysassert_wmi_lock to FALSE
+0x8c84ac   104  uCode_INT6_additional_info                         # 3 | uCode INT6 additional info: MAC_SXD.MAC_HW_ICR 0x%08x
+0x8c87e0   118  Engine_of_is_already                               # 1 | Engine of %s is already active
+0x8c8b8c   102  Removed_index_CID_from                             # 1 | Removed index CID %d from ranking list.
+0x8c8f20    86  fwq_tx_cpp                                         # 1 | fwq_tx.cpp
+0x8c9198   130  fw_mailbox_cpp                                     # 2 | fw_mailbox.cpp
+0x8c9268   118  mem_pool_cpp                                       # 3 | mem_pool.cpp
+0x8c937c   120  fw_mailbox_cpp                                     # 2 | fw_mailbox.cpp
+0x8c9468    92  fw_mailbox_cpp                                     # 2 | fw_mailbox.cpp
+0x8c9598    78  basic_if_cpp                                       # 1 | basic_if.cpp
+0x8c97fc    60  MORDI_TAKE_m_dmg_bcon_additional_ies               # 1 | MORDI. TAKE m_dmg_bcon_additional_ies
+0x8c9b10    46  fwq_tx_cpp                                         # 1 | fwq_tx.cpp
+0x8c9da4   108  Requested_AID                                      # 3 | Requested AID: %d
+0x8c9e44    46  conn_mgr_cpp                                       # 1 | conn_mgr.cpp
+0x8c9ebc   160  Received_Broadcast_AID                             # 4 | Received Broadcast AID
+0x8ca264    58  Lifetime_MTRL_count_set                            # 1 | Lifetime: MTRL count %x ->%x, set to %x
+0x8ca30c   124  u_schd_cpp                                         # 1 | u_schd.cpp
+0x8ca4a4   100  calib_cfg_schemes_c                                # 2 | calib_cfg_schemes.c
+0x8ca538   298  fwq_tx_cpp                                         # 2 | fwq_tx.cpp
+0x8ca964   380  GET_STATUS_HAL                                     # 11 | *** GET STATUS HAL ***
+0x8cabe4    64  mid_cpp                                            # 1 | mid.cpp
+0x8cad54    98  GTK_key_id                                         # 1 | GTK key_id: %d.
+0x8cb220    84  HOST_EVENT_WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE   # 1 | <<---- [HOST EVENT] WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE_EVENTID, status=%d, sector_idx=%
+0x8cb274    76  HOST_EVENT_WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE   # 1 | <<---- [HOST EVENT] WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE_EVENTID, status=%d
+0x8cb698    62  WBE_DRIVER_HOST                                    # 1 | WBE_DRIVER::HOST:: CPL TO - GBE WA Closed!!
+0x8cb6d8    60  HOST_EVENT_WMI_FW_READY_EVENTID                    # 1 | <<---- [HOST EVENT] WMI_FW_READY_EVENTID
+0x8cb8d8    52  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cb90c    62  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cb964    66  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cb9a8    50  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cba10   270  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 4 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8cbb20   160  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cbbc0   208  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 4 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cbd30    92  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 2 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cbd8c   134  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cbe14    54  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cbe6c   140  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cbef8   100  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cbf98   182  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc0c8   118  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc140    70  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cc188   240  hw_drivers_abif_c                                  # 6 | hw_drivers_abif.c
+0x8cc278   154  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cc314   130  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc3c8   146  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cc45c    66  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cc5b0   108  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc674    88  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc6dc    76  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cc728   142  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cc7b8   122  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cc834   140  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cc9a0    96  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cca2c    74  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cca94    52  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8ccad8   110  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8ccb7c    82  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8ccbd0   156  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8ccc78    58  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cccb4    62  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cccf4   120  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8ccd6c    64  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8ccdac   138  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cce38   134  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8ccec0    64  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8ccf00    72  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8ccf48    70  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8ccfb0    88  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cd018   112  hw_drivers_abif_c                                  # 2 | hw_drivers_abif.c
+0x8cd088    86  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 2 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd0e0    66  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 2 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd174    56  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cd1f4    58  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cd230    76  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cd28c    66  hw_drivers_abif_c                                  # 1 | hw_drivers_abif.c
+0x8cd2d0   124  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cd34c   146  hw_drivers_abif_c                                  # 3 | hw_drivers_abif.c
+0x8cd3e0   150  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 4 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd478   212  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 5 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd978    60  DMA_BAD_Interrupt_cause                            # 2 | DMA BAD Interrupt: cause = %x
+0x8cdb40   112  hw_drivers_dma_c                                   # 1 | hw_drivers_dma.c
+0x8cdbe8   194  Reset_V_ring_head                                  # 3 | Reset V-ring #%d, head %x head_4_rd %x.
+0x8cdd24    96  hw_drivers_dma_c                                   # 1 | hw_drivers_dma.c
+0x8cdef4    90  hw_drivers_dma_c                                   # 1 | hw_drivers_dma.c
+0x8ce044   132  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8ce15c    32  HWD_MAC_Enable_Multi                               # 1 | HWD MAC: Enable Multi Cast traffic
+0x8ce17c   102  In_the_add_key_function                            # 1 | In the add_key function. KEY[0]ADDRESS: %x
+0x8ce1e4   122  hw_drivers_mac_c                                   # 1 | hw_drivers_mac.c
+0x8ce260    52  hw_drivers_mac_c                                   # 1 | hw_drivers_mac.c
+0x8ce2bc    68  hw_drivers_mac_c                                   # 1 | hw_drivers_mac.c
+0x8ce50c    84  hw_drivers_pcie_c                                  # 2 | hw_drivers_pcie.c
+0x8ce7d8   132  PCIE_EP_under_Serdes                               # 2 | PCIE: EP under Serdes: LnkCtl: Chk L0s configuration(0x%x)!!!
+0x8ce958    50  hwd_pcie_l1_pm_sub_ctl_get_EP_under_SWITCH         # 1 | hwd_pcie_l1_pm_sub_ctl_get:: EP under SWITCH Not supported!!!
+0x8ceab8    88  Sparrow_PCIe_L1SS_Support                          # 1 | Sparrow PCIe L1SS Support enabled
+0x8ceb10    48  hwd_pcie_config_lnkctl_EP_under_SWITCH             # 1 | hwd_pcie_config_lnkctl:: EP under SWITCH Not supported!!!
+0x8ceb40    62  hwd_pcie_lnkctl_set_EP_under_SWITCH                # 1 | hwd_pcie_lnkctl_set:: EP under SWITCH Not supported yet!!!
+0x8ceb80   140  PCIE_EP_under_Serdes                               # 3 | PCIE: EP under Serdes: DevCtl: Chk MaxReadReq configuration!!!
+0x8cec0c   140  hw_drivers_pcie_c                                  # 1 | hw_drivers_pcie.c
+0x8cecd0   116  hw_drivers_pcie_c                                  # 3 | hw_drivers_pcie.c
+0x8ced78    84  hw_drivers_pcie_c                                  # 2 | hw_drivers_pcie.c
+0x8cedcc    34  Clear_and_mask_PCIe                                # 1 | Clear and mask PCIe interrupts
+0x8ceed4   104  Not_Understood_BUG_5661_WA_hwd_phy_dbg_clk_enabl   # 2 | Not Understood BUG_5661_WA: hwd_phy_dbg_clk_enable(%d)
+0x8cf07c   104  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf1b8   236  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 6 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cf2a4   486  hw_drivers_phy_c                                   # 8 | hw_drivers_phy.c
+0x8cf4c8    50  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf4fc    48  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf52c    90  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8cf588   218  hw_drivers_phy_c                                   # 4 | hw_drivers_phy.c
+0x8cf664   148  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf6f8    82  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf74c   102  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf8e8   112  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cf988   104  DEBUG_PHY_AGC_START_ina_rssi_adc_db                # 3 | DEBUG PHY: AGC_START=%d    ina_rssi_adc_db=%d    ina_rssi_adc_db_sfd_locked=%d
+0x8cfa04    58  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cfa40    50  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cfaa4    52  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cfad8   104  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8cfb40    82  LINK_STATS_PHY_INA_SYNC_CP_PHY_INA_SYNC_DP         # 3 | LINK_STATS PHY_INA_SYNC_CP=%d PHY_INA_SYNC_DP=%d
+0x8cfbc8    66  DO_WHILE_WITH_MAX_ITER_OCCUR                       # 2 | DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cfca8    50  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8cfdc0   130  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8cfe5c   122  hw_drivers_phy_c                                   # 3 | hw_drivers_phy.c
+0x8cff30   266  hw_drivers_phy_c                                   # 5 | hw_drivers_phy.c
+0x8d006c   106  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8d00f0   120  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8d0168   128  hw_drivers_phy_c                                   # 2 | hw_drivers_phy.c
+0x8d01e8   196  hw_drivers_phy_c                                   # 5 | hw_drivers_phy.c
+0x8d02ac   106  hw_drivers_phy_c                                   # 1 | hw_drivers_phy.c
+0x8d0394   152  hw_drivers_rfc_c                                   # 1 | hw_drivers_rfc.c
+0x8d073c    52  hw_drivers_rfc_c                                   # 1 | hw_drivers_rfc.c
+0x8d0770    86  hw_drivers_rfc_c                                   # 2 | hw_drivers_rfc.c
+0x8d0ef4    52  hw_drivers_rfc_c                                   # 1 | hw_drivers_rfc.c
+0x8d0f28    86  hw_drivers_rfc_c                                   # 2 | hw_drivers_rfc.c
+0x8d0f80   444  NNL_mac_go_when_busy_err_cnt                       # 12 | [NNL] mac_go_when_busy_err_cnt=%d
+0x8d113c    56  hw_drivers_rfc_c                                   # 1 | hw_drivers_rfc.c
+0x8d12c0    64  data0_is_x                                         # 1 | data0 is 0x%x
+0x8d13dc    82  GPIO0_x_GPIO1_x                                    # 1 | GPIO0 = 0x%8X GPIO1 = 0x%8X GPIO2 = 0x%8X
+0x8d19b0   424  HWF_CALIB_ALL_LO_POWER                             # 9 | =========  HWF_CALIB_ALL === LO_POWER === 
+0x8d2064  1054  Reference_row_wasn_t                               # 2 |       Reference row wasn't found. cntr = %d, indexs = %x, dc = %x
+0x8d2d78   448  IF_GAIN_FinEst_CAL_CORRECTION_NON_CONVERGED        # 2 | ===== IF GAIN FinEst: CAL_CORRECTION_NON_CONVERGED (iter_cntr=%d) =====
+0x8d3738   240  hw_flows_calibration_manager_c                     # 2 | hw_flows_calibration_manager.c
+0x8d3870   244  hw_flows_calibration_manager_c                     # 2 | hw_flows_calibration_manager.c
+0x8d3a70   384  hw_flows_vga_dc_calibration_c                      # 1 | hw_flows_vga_dc_calibration.c
+0x8d3bec   288  hw_flows_vga_dc_calibration_c                      # 2 | hw_flows_vga_dc_calibration.c
+0x8d4600   120  RX_status_OK_packets                               # 4 | RX status: OK, %d packets received during last msec
+0x8d46c0    50  RF_RESET_DONE                                      # 1 | RF RESET DONE
+0x8d4740    34  hw_flows_rf_c                                      # 1 | hw_flows_rf.c
+0x8d4b3c   152  hwm_ANALOG_CHANNEL_SWITCH_channel_num              # 1 |  ====== hwm_ANALOG_CHANNEL_SWITCH  channel_num[1..4]=%d ====== 
+0x8d5014   118  hw_modes_power_manager_c                           # 1 | hw_modes_power_manager.c
+0x8d5274   198  Coarse_VGA_reached_its                             # 1 |       Coarse VGA (%d) reached its limit (%d)
+0x8d533c    54  fw_mailbox_cpp                                     # 1 | fw_mailbox.cpp
+0x8d5374    98  Information_flow_MID_CID                           # 2 | Information flow - MID[%d] CID[%d] .
+0x8d5428   196  Information_request_Ignored_sta_idx                # 3 | Information request -Ignored sta_idx %d, isn't active.
+0x8d54ec   114  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8d5cc4   102  calib_engine_cpp                                   # 1 | calib_engine.cpp
+0x8d5f68    32  FWQ_TX_AVAILABILITY_init                           # 1 | FWQ_TX_AVAILABILITY::init
+0x8d6028    40  pcie_device_power_if_init                          # 1 | pcie_device_power_if::init
+0x8d62c0   108  fwq_tx_cpp                                         # 1 | fwq_tx.cpp
+0x8d632c    82  psc_if_init                                        # 1 | psc_if::init
+0x8d63fc   124  tx_macq_cpp                                        # 1 | tx_macq.cpp
+0x8d6568   208  mid_cpp                                            # 4 | mid.cpp
+0x8d68d8   228  tx_queue_mgr_cpp                                   # 1 | tx_queue_mgr.cpp
+0x8d6a1c   160  Inject_event_to_Next                               # 2 | Inject %s event to %s. Next state: %s
+0x8d6afc    96  ul_stream_cpp                                      # 2 | ul_stream.cpp
+0x8d6b80   112  psc_if_start_psc                                   # 2 | PCP psc_if::start_psc. sending Unsolicit PSC-RESP
+0x8d6bf0   128  Received_PSC_REQ                                   # 2 | Received PSC REQ
+0x8d6c70   392  sta_psc_sm_IDLE                                    # 10 | Received PSC RESP while sta_psc_sm::IDLE therefore IGNORING PSC RESP
+0x8d6df8   134  Operational_MBOX_init                              # 2 | Operational MBOX init
+0x8d6e80    38  operational_if_cpp                                 # 1 | operational_if.cpp
+0x8d6ea8   114  Debug_MBOX_init                                    # 1 | Debug MBOX init
+0x8d6ff8    56  stream_mgr_cpp                                     # 1 | stream_mgr.cpp
+0x8d70fc    80  bad_beacons_detector_cpp                           # 1 | bad_beacons_detector.cpp
+0x8d714c    84  ka_necessity_detector_cpp                          # 1 | ka_necessity_detector.cpp
+0x8d71a0    84  tx_ppdu_ageing_timeout_detector_cpp                # 1 | tx_ppdu_ageing_timeout_detector.cpp
+0x8d7658    30  hw_drivers_user_led_c                              # 1 | hw_drivers_user_led.c
+0x8d7694    98  hw_drivers_user_led_c                              # 1 | hw_drivers_user_led.c
+0x8d7724    54  led_scheme_cpp                                     # 1 | led_scheme.cpp
+0x8d775c   116  led_scheme_cpp                                     # 1 | led_scheme.cpp
+0x8d7a20   158  SW_TX_MGMT_link                                    # 4 | SW TX MGMT: link acquisition activated.
+0x8d7d1c    92  lm_if_cpp                                          # 1 | lm_if.cpp
+0x8d7de4   108  FIND_Listen_for_msec                               # 2 | FIND:: Listen for %d msec.
+0x8d7f80   130  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8d8004   114  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8d8078    60  AWAKE_PEERS_EVENT_awake                            # 1 | AWAKE PEERS EVENT: awake peers vector = 0x%x , awake no tx peers vector = 0x%x, notificati
+0x8d80dc   120  Send_CMD_BCON_MGT_flags_pcp_assoc_ready            # 1 | Send CMD_BCON_MGT: flags.pcp_assoc_ready = %x, discovery_mode = %d 
+0x8d8188   144  Discovery_ABFT_Notify_status                       # 2 | Discovery ABFT Notify status %d (BF_DONE_OK = 1)
+0x8d8218   308  NNL_CID                                            # 13 | [NNL] CID=%2d STATE=%3d SUBSTATE=%3d
+0x8d865c   348  BTI_start_time_0x                                  # 13 | [BTI] | start time 0x%08x%08x | duration %d 
+0x8d8824    62  Sending_CMD_PHY_INA_DET_CFG_ad_out_of_txop_en_ad   # 1 | Sending CMD_PHY_INA_DET_CFG [ad_out_of_txop_en=%d, ad_in_txop_en=%d]
+0x8d88e8   154  RS_DONE_CID_MCS                                    # 4 | RS DONE: CID=%d MCS:%d
+0x8d8a7c   196  Sending_CMD_SELECTIVE_NEIGHBOR_CFG_selective_det   # 2 | Sending CMD_SELECTIVE_NEIGHBOR_CFG [selective_detection_en=%d, threshold=%d, num_rates_red
+0x8d8bf4   138  lmac_if_cpp                                        # 4 | lmac_if.cpp
+0x8d8d30   116  lmac_if_cpp                                        # 1 | lmac_if.cpp
+0x8d953c    58  BF_CTRL_HAL                                        # 1 | *** BF CTRL HAL ***
+0x8d967c   154  HOST_TIMESTAMP_SYNC                                # 2 | HOST TIMESTAMP SYNC %02d/%02d/%04d
+0x8d9718   144  RS_ENABLE                                          # 3 | RS ENABLE = %d
+0x8d97a8   188  connection_ID_out_of                               # 6 | connection ID [%d] out of range
+0x8d9864   146  SET_SECTORS_HAL                                    # 6 | *** SET SECTORS HAL ***
+0x8d98f8   230  link_stats_sm_cpp                                  # 1 | link_stats_sm.cpp
+0x8d99e0   230  cnt_handler_c                                      # 3 | cnt_handler.c
+0x8d9b58    78  VR_Scheduler_handles_uCode                         # 1 | VR-Scheduler handles uCode Flush Response.
+0x8d9c18    72  lm_if_cpp                                          # 1 | lm_if.cpp
+0x8d9e84    76  Temp_sense_is_currently                            # 1 | Temp sense is currently active - using old values
+0x8da284   300  PRS_Unhandled_MGMT_type                            # 2 | [PRS]Unhandled  MGMT type: sub_type %d stype %x len %d 
+0x8db2c0    88  hw_drivers_dma_offload_c                           # 2 | hw_drivers_dma_offload.c
+0x8db5b4   434  hw_drivers_mac_parser_c                            # 1 | hw_drivers_mac_parser.c
+0x8db898    78  hw_drivers_mac_parser_c                            # 1 | hw_drivers_mac_parser.c
+0x8db8e8   252  hw_drivers_mac_parser_c                            # 3 | hw_drivers_mac_parser.c
+0x8dba18    74  hw_drivers_mac_parser_c                            # 1 | hw_drivers_mac_parser.c
+0x8dbc3c   180  hw_drivers_mac_parser_c                            # 1 | hw_drivers_mac_parser.c
+0x8dc008    50  lm_if_cpp                                          # 1 | lm_if.cpp
+0x8dc03c   100  mid_cpp                                            # 1 | mid.cpp
+0x8dc0a0    84  ADD_PBSS_AID_MAC                                   # 1 | ADD PBSS AID %d, MAC address ADDR-%04X%08X
+0x8dc0f4   156  DEL_PBSS_AID_MAC                                   # 3 | DEL PBSS AID %d, MAC address ADDR-%04X%08X
+0x8dc190   210  stats_timer_exp_L1_WA_Took                         # 2 | stats_timer_exp:: L1 WA: %d Took %d usec
+0x8dc264   320  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 2 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8dc430   100  HOST_EVENT_WMI_TRAFFIC_DEFERRAL_EVENTID_status     # 1 | <<---- [HOST EVENT] WMI_TRAFFIC_DEFERRAL_EVENTID status %d, devid %d
+0x8dc494    86  HOST_EVENT_WMI_TRAFFIC_RESUME_EVENTID_status       # 1 | <<---- [HOST EVENT] WMI_TRAFFIC_RESUME_EVENTID status %d, devid %d
+0x8dc544   282  PCP_Start_failed_MAC                               # 4 | PCP Start failed, MAC address error
+0x8dc660   144  PCP_Stop_primary_channel                           # 2 | PCP Stop -> primary channel was unset !!!  
+0x8dc92c   118  u_schd_cpp                                         # 1 | u_schd.cpp
+0x8dc99c   122  u_schd_cpp                                         # 1 | u_schd.cpp
+0x8dca18   102  TX_API_post_tx_payload                             # 2 | <<---- [HOST EVENT] WMI_TX_MGMT_PACKET_EVENTID TX_API::post_tx_payload() 0x%x by blink=0x%
+0x8dcdd8   106  NNL_atim_rx                                        # 3 | [NNL] atim_rx=0x%02x | bf_trigger=0x%02x | bcast=%d |
+0x8dce44    94  About_to_print_ies                                 # 2 | About to print ies:
+0x8dcef8   130  NNL_cid                                            # 4 | [NNL] | cid %d | tm_no_tx %d | ack_cnt %d
+0x8dcf7c   130  NNL_cid                                            # 4 | [NNL] | cid %d | ageing %d | ack_cnt %d
+0x8dd124    76  rx_macq_cpp                                        # 1 | rx_macq.cpp
+0x8dd1a0    42  ps_nonassoc_sm_cpp                                 # 1 | ps_nonassoc_sm.cpp
+0x8dd500    84  POWER_MNGR_Number_of_connection                    # 1 | POWER_MNGR:: Number of connection: %d, curr_awake_window: %d next_awake_window: %d
+0x8dd810    32  ps_connection_psc_req_rx_handler                   # 1 | Ignoring ps_connection::psc_req_rx_handler
+0x8ddaa8    32  ps_connection_psc_rsp_rx_handler                   # 1 | Ignoring ps_connection::psc_rsp_rx_handler
+0x8dde58   116  read_size_is_outside                               # 2 | read size is outside of otp boundaries!
+0x8ddf70    52  No_temperature_measurment_NO                       # 1 | No temperature measurment - NO RF on current platform!!!
+0x8de1a4   172  Remove_request_Tlv_type                            # 3 | Remove request Tlv type %d from block 0x%X.
+0x8de4ec   158  llist_cpp                                          # 4 | llist.cpp
+0x8de5d8   114  tx_macq_cpp                                        # 1 | tx_macq.cpp
+0x8de824    50  lm_if_cpp                                          # 1 | lm_if.cpp
+0x8ded90   110  rx_macq_cpp                                        # 1 | rx_macq.cpp
+0x8def44   166  RX_PKT_SRVS_CID                                    # 5 | RX PKT SRVS: CID %d stype %x pkt len %d 
+0x8df014    96  RX_MGMT_SRVS_Distribute                            # 2 | RX MGMT SRVS: Distribute MLME packet subtype 0x%X to MID %d
+0x8df11c   236  RX_SRVS_pkt_for                                    # 4 | RX SRVS: pkt for mid %d type %d len %d
+0x8df50c   220  rx_queue_c                                         # 2 | rx_queue.c
+0x8df710   146  rx_queue_c                                         # 1 | rx_queue.c
+0x8df7a4   230  rx_queue_c                                         # 1 | rx_queue.c
+0x8df8b0   226  rx_queue_c                                         # 3 | rx_queue.c
+0x8dfa40    64  link_stats_sm_cpp                                  # 1 | link_stats_sm.cpp
+0x8dfc54    68  link_stats_sm_cpp                                  # 1 | link_stats_sm.cpp
+0x8dfcd4   120  calib_mngr_cpp                                     # 1 | calib_mngr.cpp
+0x8e0030   102  FIND_Search_for_msec                               # 2 | FIND:: Search for %d msec.
+0x8e048c   214  basic_if_cpp                                       # 3 | basic_if.cpp
+0x8e061c   120  HOST_EVENT_WMI_BA_STATUS_EVENTID_for               # 1 | <<---- [HOST EVENT] WMI_BA_STATUS_EVENTID for midid %d.
+0x8e07b8   140  ba_sm_cpp                                          # 1 | ba_sm.cpp
+0x8e0874    86  operational_if_cpp                                 # 1 | operational_if.cpp
+0x8e09ac   122  CMD_TX_DATA_failed                                 # 2 | CMD TX DATA failed - No CID found for sta %d
+0x8e0e3c   198  Sending_PSC_REQ_bi_start_time                      # 3 | Sending PSC REQ. bi_start_time:0x%x, number_of_awake_bi:%d, sleep_cycle:%d
+0x8e0ff4    82  pcp_psc_sm_send_psc_resp_flow                      # 2 | pcp_psc_sm::send_psc_resp_flow.
+0x8e1048   110  low_sme_cpp                                        # 2 | low_sme.cpp
+0x8e10d8    82  HOST_EVENT_WMI_TEMP_SENSE_DONE_EVENTID_Baseband    # 1 | <<---- [HOST EVENT] WMI_TEMP_SENSE_DONE_EVENTID: Baseband=%d[mili-Celcius] RF=%d[mili-Celc
+0x8e1248    64  mid_cpp                                            # 1 | mid.cpp
+0x8e1288   106  HOST_EVENT_WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE   # 1 | <<---- [HOST EVENT] WMI_GET_SELECTED_RF_SECTOR_INDEX_DONE_EVENT: Command execution aborted
+0x8e12f4   106  HOST_EVENT_WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE   # 1 | <<---- [HOST EVENT] WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE_EVENTID: Command execution abort
+0x8e1898   140  In_the_set_gtk_function                            # 3 | In the set_gtk function. key_index: %d, key_usage: %d,cid: %d
+0x8e1a68    60  Multicast_MAC_address_is                           # 1 | !!! Multicast MAC address is now applied !!!
+0x8e1abc    62  app_ies_cpp                                        # 1 | app_ies.cpp
+0x8e1afc    56  app_ies_cpp                                        # 1 | app_ies.cpp
+0x8e1b34   128  networkType_WMI_NETTYPE_ADHOC                      # 7 | networkType = WMI_NETTYPE_ADHOC %x
+0x8e1fe8    98  Replace_RSN_IE_x                                   # 2 | Replace RSN IE 0x%x new ie_len %d 
+0x8e20c0    62  basic_sm_cpp                                       # 1 | basic_sm.cpp
+0x8e2134   110  New_TK_is_handled                                  # 2 |  New TK is handled:
+0x8e2454   164  LARGE_TASK_FUNC_address                            # 1 | LARGE TASK: FUNC address 0x%x, duration %d ms.
+0x8e2570   108  periodic_service_cpp                               # 1 | periodic_service.cpp
+0x8e2624    66  fwq_tx_cpp                                         # 1 | fwq_tx.cpp
+0x8e267c   124  vring_schdlr_cpp                                   # 2 | vring_schdlr.cpp
+0x8e27a4   134  calib_engine_cpp                                   # 2 | calib_engine.cpp
+0x8e2a8c    52  FIND_Start_session                                 # 1 | FIND:: Start session.
+0x8e2ae8   624  LINK_STATS_TX_GOODPUT_RX_GOODPUT_PER               # 10 | LINK_STATS TX_GOODPUT=%d RX_GOODPUT=%d PER=%d
+0x8e2dbc    64  fwq_tx_cpp                                         # 1 | fwq_tx.cpp
+0x8e2dfc    50  FIND_MNGR_STOP                                     # 1 | FIND MNGR: STOP. 
+0x8e2e30    72  tx_api_cpp                                         # 1 | tx_api.cpp
+0x8e2e78    48  dma_mgr_cpp                                        # 1 | dma_mgr.cpp
+0x8e2f2c    66  lm_if_cpp                                          # 1 | lm_if.cpp
+0x8e2f70    28  bad_beacons_detector_stop_monitoring               # 1 | bad_beacons_detector::stop_monitoring
+0x8e359c    48  hw_drivers_user_lfsr_c                             # 1 | hw_drivers_user_lfsr.c
+0x8e3880    50  phy_monitor_cpp                                    # 1 | phy_monitor.cpp
+0x8e420c    94  Temperature_measurement_command_mode               # 1 | Temperature measurement command (mode=%d)
+0x8e43c8   142  sm_pring_connectivity_cpp                          # 2 | sm_pring_connectivity.cpp
+0x8e4894    82  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 1 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8e4c04    48  TX_MGMT_SRVS_Build                                 # 1 | TX MGMT SRVS: Build disassociate req length = %d 
+0x8e4c34   136  TX_MGMT_SRVS_Build                                 # 4 | TX MGMT SRVS: Build DMG Beacon len %d
+0x8e4d0c   142  FIXED_SW_PROBE_RESP                                # 2 | FIXED SW PROBE RESP header %d bytes, so far %d bytes, pkt at 0x%8X
+0x8e4df4   154  vring_schdlr_cpp                                   # 2 | vring_schdlr.cpp
+0x8e4ea8    52  sm_pring_connectivity_cpp                          # 1 | sm_pring_connectivity.cpp
+0x8e4ef4    98  PRING_slot_optimized_recognized                    # 2 | PRING #%d slot optimized recognized at %d.
+0x8e5020   106  tx_queue_c                                         # 1 | tx_queue.c
+0x8e52c4    62  txrx_sel_NO_RF_on                                  # 1 | txrx_sel - NO RF on current platform!!!
+0x8e5568    52  RADIO_MGR_unset_primary_channel                    # 1 | RADIO_MGR::unset_primary_channel
+0x8e5708   122  fw_scheduled_dti_cpp                               # 1 | fw_scheduled_dti.cpp
+0x8e57a4   122  dashboard_ABFT_BF_results_received_for_al          # 3 | [dashboard] ABFT BF results received for already removed connection
+0x8e5820    72  dashboard_cpp                                      # 1 | dashboard.cpp
+0x8e5868   176  dashboard_cpp                                      # 2 | dashboard.cpp
+0x8e5970   102  dashboard_cpp                                      # 1 | dashboard.cpp
+0x8e5b94    82  ut_hw_common_c                                     # 1 | ut_hw_common.c
+0x8e738c    96  vring_schdlr_cpp                                   # 1 | vring_schdlr.cpp
+0x8e7418   528  ESE_CFG_CMD_ESE                                    # 6 | ESE CFG CMD. ESE: %d
+0x8e7628    98  l2_mgr_wmi_cmd_handler_get_mgmt_retry_limit        # 2 | l2_mgr::wmi_cmd_handler_get_mgmt_retry_limit
+0x8e769c   130  l2_mgr_wmi_cmd_handler_set_mgmt_retry_limit        # 3 | l2_mgr::wmi_cmd_handler_set_mgmt_retry_limit, mng_retry_limit:%d
+0x8e7774    58  Connect_IGNORED_due_to                             # 1 | Connect IGNORED due to RF-KILL enabled, sending disconnect event
+0x8e77f8   146  MAC_ADDR                                           # 3 | MAC ADDR-%04X%08X
+0x8e788c    74  HOST_EVENT_WMI_LINK_MAINTAIN_CFG_READ_DONE_EVENT   # 1 | <<---- [HOST EVENT] WMI_LINK_MAINTAIN_CFG_READ_DONE_EVENTID status=%d, cid=%d
+0x8e78d8    76  HOST_EVENT_WMI_LINK_MAINTAIN_CFG_WRITE_DONE_EVEN   # 1 | <<---- [HOST EVENT] WMI_LINK_MAINTAIN_CFG_WRITE_DONE_EVENTID status=%d, cid=%d
+0x8e7a24    94  POWER_MNGR_wmi_ps_dev_profile_cfg_cmd              # 2 |  POWER_MNGR::wmi_ps_dev_profile_cfg_cmd(ps_profile = %d)
+0x8e7ba0    80  HOST_EVENT_WMI_SCAN_COMPLETE_EVENTID_for           # 1 | <<---- [HOST EVENT] WMI_SCAN_COMPLETE_EVENTID for devid %d. WMI_SCAN_ABORTED (due to RF-KI
+0x8e7bf0   316  HOST_EVENT_WMI_RCP_ADDBA_RESP_SENT_EVENTID_for     # 4 | <<---- [HOST EVENT] WMI_RCP_ADDBA_RESP_SENT_EVENTID for devid %d. WMI_FW_STATUS_FAILURE
+0x8e7d2c   206  wmi_handlers_cpp                                   # 4 | wmi_handlers.cpp
+0x8e7ea8    44  POWER_MNGR_wmi_traffic_deferral_cmd                # 1 |  POWER_MNGR::wmi_traffic_deferral_cmd (wakeup_trigger = %d)
+0x8e7ee0    72  WMI_UT_HANDLER_module_id_x                         # 1 | WMI_UT_HANDLER:: module_id=0x%x
+0x8e7f60    78  marlon_r_if_cpp                                    # 1 | marlon_r_if.cpp
+0x8e7fdc    42  OTP_write_failed                                   # 1 | OTP write failed!
+0x8e8014   156  RF_retry_in_write                                  # 3 | RF retry in write verify for add=0x%x retry=%d
+0x8e85b0   150  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x          # 3 | DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8e8648   534  Setting_L1_enter_latency                           # 6 | Setting L1 enter latency to 16us - EP under switch
+0x8e9440    98  TODO_install_key_Need_to                           # 1 | TODO !!!! install_key ... Need to support key index
+0x8e95b4   180  dbi_write_shadow_DS_FAILED                         # 4 | dbi_write shadow DS #%d FAILED
+0x8e9668   104  arc_action_point_c                                 # 1 | arc_action_point.c
+0x8ea0d4    80  scan_mngr_calculate_passive_scan_info              # 1 | scan_mngr::calculate_passive_scan_info
+0x8ea2c8    92  BA_retry_flow                                      # 2 | BA retry flow (# %d)
+0x8ea418    24  Clearing_DBI_gateway                               # 1 | Clearing DBI gateway
+0x8ea510    46  Config_Security_Mid_configured                     # 1 | Config Security Mid[%d] configured: m_wpa_offload = %x, auth_mode = %x
+0x8ea564    50  maintain_sm_cpp                                    # 1 | maintain_sm.cpp
+0x8ea660   248  L2_Offload_Rx_Decap_trans_type                     # 4 | L2 Offload Rx Decap_trans_type=%d
+0x8eab94   114  dbi_write_FAILED_address_x                         # 3 | dbi_write FAILED: address=0x%x, data=0x%x, port=%d
+0x8eac08    26  DEBUG_DMA_PEDI_DIF                                 # 1 | DEBUG DMA: PEDI DIF DEBUG IF: 0x%x
+0x8eac48   240  LLD_Link_Lost_Diagnostic                           # 11 | =========== LLD(Link Lost Diagnostic Part 2)           =============
+0x8ead38   226  DEBUG_MAC_RX_CRC_OK                                # 9 | DEBUG MAC RX: CRC_OK=%d CRC_ERR= %d
+0x8eae1c    66  DEBUG_PCIE_L1_STATE                                # 2 | DEBUG PCIE: L1 STATE:%d, L1SS STATE:0x%x LTSSM STATE:0x%x
+0x8eae60    66  DEBUG_PHY_false_alarms_in_txop_ad                  # 2 | DEBUG PHY: false_alarms.in_txop_ad=%d    false_alarms.in_txop_cp=%d    false_alarms.in_txo
+0x8eaea4   228  DEBUG_RF_RF_tx_gain_config_val                     # 7 | DEBUG RF: RF tx_gain_config_val=%d    atten_config_val=%d
+0x8eb1d4    88  WMI_Disconnect_MID_reason                          # 2 | WMI Disconnect MID:[%d] reason = %d  protocol %d
+0x8eb22c    68  disconnect_by_peer_MID_reason_protocol             # 1 | disconnect_by_peer:: MID:[%d] reason = %d  protocol %d
+0x8eb270   248  L2MGR_CID_disconnect_done                          # 3 | L2MGR - CID %d disconnect done (reason = %d).
+0x8eb448    74  WMI_Disconnect_MID_reason                          # 1 | WMI Disconnect MID:[%d] reason = %d  protocol %d
+0x8eb494   110  Disconnect_not_exist_STA                           # 2 | Disconnect not-exist STA 
+0x8ebc00    86  FW_date                                            # 2 | FW date = %02d/%02d/%d
+0x8ebc58    56  FW_version                                         # 1 | FW version = %d.%d.%d
+0x8ec190   266  NNL_is_out_valid                                   # 10 | [NNL]%d is out valid range [%d,%d]
+0x8ec360   132  NNL_x_is_out                                       # 5 | [NNL]=0x%x is out of valid XPM bit addresses range [0,0x%x]
+0x8ec3e4   120  BASEBAND_Type_is_not                               # 4 | BASEBAND Type is not defined!!!
+0x8ec45c   152  Identify_RF_Type_device_id                         # 3 |       Identify RF Type: device_id=%d val1=0x%X val2=0x%X
+0x8ec754   138  ASSOC_RESP_fix_fields                              # 2 | ASSOC RESP fix fields are built
+0x8ec7e0   126  ASSOC_RESP_TLV_aid                                 # 2 | ASSOC RESP TLV %d aid %d
+0x8eca84   104  MGMT_TX_Probe_resp                                 # 3 | MGMT TX Probe resp TSF length %d total %d
+0x8ecaec   232  MGMT_TX_Probe_resp                                 # 5 | MGMT TX Probe resp ssid IE length %d total %d
+0x8ecd10   626  FIXED_MGMT_TX_Probe                                # 11 | FIXED MGMT TX Probe resp use host SSID IE length %d total %d
+0x8ecf84   122  Initializing_RF_KILL_SM_with_W_DISABLE             # 1 | Initializing RF_KILL_SM with W_DISABLE
+0x8ed290   120  connection_cpp                                     # 1 | connection.cpp
+0x8ed308   144  home_gatis_sdk_sparrow                             # 1 | /home/gatis/sdk/sparrow/fwsrc4/src/fw/inc/tx_api.h
+0x8ed398   154  L2MGR_OOB_mode                                     # 2 | [L2MGR] OOB mode 
+0x8ed87c    92  HOST_EVENT_WMI_READY_EVENTID_x1001                 # 1 | HOST EVENT (WMI_READY_EVENTID=0x1001): Notify FW ready (is OOB = %d) Local MAC: ADDR-%04X%
+0x8edbbc    94  discovery_cpp                                      # 3 | discovery.cpp
+0x8edc94   114  Initializing_uCode_interface                       # 4 | Initializing uCode interface
+0x8ede5c   188  LMAC_READY_driver_is_up_sts                        # 2 | LMAC READY :: driver_is_up_sts %x 
+0x8edf58    88  log_c                                              # 1 | log.c
+0x8ee7fc   146  Send_DISASSOC_request_len                          # 3 | Send DISASSOC request  len %d 
+0x8ee90c    90  OTP_params_0_seq_num_pcb_id8                       # 3 | OTP params_0. seq_num    = %x,  pcb_id8      = %x
+0x8eea68    88  HOST_EVENT_WMI_PBSS_JOINED_EVENTID_for             # 1 | <<---- [HOST EVENT] WMI_PBSS_JOINED_EVENTID for Direct Connection AID %d. fake key install
+0x8eeac0   378  Sparrow_wPCIeR_support_for                         # 4 | Sparrow wPCIeR support for backward compatibility with Marlon
+0x8eec58   112  PCIe_serdes_configuration_shlicht                  # 1 | PCIe serdes configuration shlicht
+0x8ef7b8    32  Pushed_EDCA_IE_length                              # 1 | Pushed EDCA IE length %d
+0x8ef804    38  Pushed_QoS_Capability_IE                           # 1 | Pushed QoS Capability IE [%x] length 3 
+0x8ef898    66  frame_builder_cpp                                  # 1 | frame_builder.cpp
+0x8ef90c   368  wbe_driver_cpp                                     # 14 | wbe_driver.cpp
+0x8efa7c   108  PCIE_DEBUG_INTERRUPT_port1_tx_fifo_pcpl_full_int   # 3 | PCIE DEBUG INTERRUPT port1_tx_fifo_pcpl_full_int (dbg_csu_lock=0x%X)
+0x8efcec    98  NNL_invalid_rf_id                                  # 3 | [NNL] invalid rf_id=%d (max=%d)
+0x8efddc    50  rx_queue_c                                         # 1 | rx_queue.c
+0x8efe50    72  Boot_Loader_version                                # 1 | Boot Loader version = %d.%d.%d
+0x8f0134    46  Start_scan_ts                                      # 1 | Start scan <ts: %d>
+0x8f01ac    94  discovery_cpp                                      # 3 | discovery.cpp
+0x8f033c    68  HOST_EVENT_WMI_P2P_CFG_DONE_EVENTID_for            # 1 | <<---- [HOST EVENT] WMI_P2P_CFG_DONE_EVENTID for midid %d.
+0x8f0380   302  layer2_mgr_cpp                                     # 3 | layer2_mgr.cpp
+0x8f04b0   106  HOST_EVENT_WMI_DATA_PORT_OPEN_EVENTID_for          # 1 | <<---- [HOST EVENT] WMI_DATA_PORT_OPEN_EVENTID for CID %d.
+0x8f051c   114  HOST_EVENT_WMI_DISCONNECT_EVENTID_wmi              # 1 | <<---- [HOST EVENT] WMI_DISCONNECT_EVENTID wmi reason %d, protocol reason %d
+0x8f05a0    48  HOST_EVENT_WMI_DISCOVERY_STARTED_EVENTID_for       # 1 | <<---- [HOST EVENT] WMI_DISCOVERY_STARTED_EVENTID for midid %d.
+0x8f05d0    64  HOST_EVENT_WMI_DISCOVERY_STOPPED_EVENTID_for       # 1 | <<---- [HOST EVENT] WMI_DISCOVERY_STOPPED_EVENTID for midid %d.
+0x8f0610    68  HOST_EVENT_WMI_LISTEN_STARTED_EVENTID_for          # 1 | <<---- [HOST EVENT] WMI_LISTEN_STARTED_EVENTID for midid %d.
+0x8f0654   202  HOST_EVENT_WMI_ACS_PASSIVE_SCAN_COMPLETE_EVENTID   # 2 | <<---- [HOST EVENT] WMI_ACS_PASSIVE_SCAN_COMPLETE_EVENTID dwell_time=%d, num_scan_channels
+0x8f0720    78  HOST_EVENT_WMI_PBSS_LEAVE_EVENTID_pbss             # 1 | <<---- [HOST EVENT] WMI_PBSS_LEAVE_EVENTID pbss leave event done. CID: %d
+0x8f07f4    54  HOST_EVENT_WMI_PCP_STOPPED_EVENTID_for             # 1 | <<---- [HOST EVENT] WMI_PCP_STOPPED_EVENTID for midid %d.
+0x8f0908   120  Sending_probe_rsp_len                              # 2 | Sending probe rsp. len %d (%x --> %x)
+0x8f0980    68  HOST_EVENT_WMI_SCAN_COMPLETE_EVENTID_status        # 1 | <<---- [HOST EVENT] WMI_SCAN_COMPLETE_EVENTID status %d, devid %d
+0x8f09c4   134  Sending_probe_req_len                              # 2 | Sending probe req len %d 
+0x8f0a4c    70  HOST_EVENT_WMI_SEARCH_STARTED_EVENTID_for          # 1 | <<---- [HOST EVENT] WMI_SEARCH_STARTED_EVENTID for midid %d (status %d).
+0x8f0b44    70  HOST_EVENT_WMI_SW_TX_COMPLETE_EVENTID_for          # 1 | <<---- [HOST EVENT] WMI_SW_TX_COMPLETE_EVENTID for devid %d (status %d).
+0x8f0b8c    72  HOST_EVENT_WMI_VRING_CFG_DONE_EVENTID_for          # 1 | <<---- [HOST EVENT] WMI_VRING_CFG_DONE_EVENTID for devid %d.
+0x8f0bd4    68  HOST_EVENT_WMI_VRING_EN_EVENTID_for                # 1 | <<---- [HOST EVENT] WMI_VRING_EN_EVENTID for VRING %d.
+0x8f0ee0   376  SPI_READ_waited_usec                               # 9 | SPI READ: waited %d usec for interface !!!
+0x8f141c    88  L2MGR_MAC_started_ADDR                             # 1 | [L2MGR] MAC %d started : ADDR-%04X%08X
+0x8f1b00   320  ASSOC_REQ_fields_bytes                             # 6 | ASSOC REQ fields %d bytes, so far %d bytes, pkt at 0x%8X
+0x8f1c40   324  ASSOC_RESP_header_bytes                            # 6 | ASSOC RESP header %d bytes, so far %d bytes, pkt at 0x%8X
+0x8f1de4   148  OUI_is_WSC_IE                                      # 2 | OUI is WSC IE Len %d.
+0x8f1e78   214  PROBE_REQ_internal_IEs                             # 3 | PROBE REQ internal IEs are built
+0x8f1f50   292  PROBE_RESP_header_bytes                            # 5 | PROBE RESP header %d bytes, so far %d bytes, pkt at 0x%8X
+0x8f2474    74  hwf_sector_rf_chain_set_dist_num_is_x16_on_activ   # 1 | hwf_sector_rf_chain_set(): dist_num=%d, is_x16_on=%d, activate_sector=%d
+0x8f2b48    44  layer2_mgr_cpp                                     # 1 | layer2_mgr.cpp
+0x8f2b74    54  layer2_mgr_cpp                                     # 1 | layer2_mgr.cpp
+0x8f2bac   192  layer2_mgr_cpp                                     # 4 | layer2_mgr.cpp
+0x8f2c88    82  HOST_EVENT_WMI_GET_PCP_CHANNEL_EVENTID_for         # 1 | <<---- [HOST EVENT] WMI_GET_PCP_CHANNEL_EVENTID for devid %d.
+0x8f2cdc    80  HOST_EVENT_WMI_PCP_FACTOR_EVENTID_for              # 1 | <<---- [HOST EVENT] WMI_PCP_FACTOR_EVENTID for devid %d.
+0x8f2d2c    70  HOST_EVENT_WMI_GET_SSID_EVENTID_for                # 1 | <<---- [HOST EVENT] WMI_GET_SSID_EVENTID for devid %d.
+0x8f2e08    70  Illegal_pmc_op_x                                   # 1 | Illegal pmc op: 0x%08X
+0x8f2e50   126  Error_in_MAC_address                               # 3 | Error in MAC address !!!
+0x8f2ed0   864  layer2_mgr_cpp                                     # 16 | layer2_mgr.cpp
+0x8f3230    82  layer2_mgr_cpp                                     # 1 | layer2_mgr.cpp
+0x8f3284    76  Mid_I_m_ROOT                                       # 1 | [Mid:%d] I'm ROOT: ADDR-%04X%08X
+0x8f3430   312  SW_failed_TX_MGMT                                  # 5 | SW failed TX MGMT: too big packet.
+0x8f397c    82  read_size_is_outside                               # 1 | read size is outside of otp boundaries!
+0x8f3a40   100  read_size_is_outside                               # 2 | read size is outside of otp boundaries!
+0x8f3aa4    92  write_x_to_x                                       # 1 | write  0x%x to 0x%x
+0x8f3b00    56  marlon_r_if_cpp                                    # 1 | marlon_r_if.cpp

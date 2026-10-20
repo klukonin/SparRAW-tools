@@ -1,0 +1,88 @@
+# Функции прошивки 4.1.0.1000, исполнение которых ДОКАЗАНО живой трассировкой
+# на железе (wAP 60G, режимы AP и STA, 3300 снимков колец лога).
+# Имя выведено из лог-строки самой функции; при совпадении добавлен адрес.
+# Формат: адрес размер имя # доказательство
+
+0x8c15e8   116  Awake_TSF_LED_interrupt_expired                # Awake TSF LED interrupt expired! TSF: 0x%08x:%08x
+0x8c1d5c    78  action_no_ack_action_x                         # action no ack - action 0x%x, category_code 0x%x 
+0x8c276c   218  ADD_VRING_completed_V_ring_cid                 # ADD_VRING completed: V-ring #%d cid = %d mac_qid=%d
+0x8c2b18    80  conn_mgr_cpp                                   # conn_mgr.cpp
+0x8c2fe4   152  Found_V_ring_to_run                            # Found #%d V-ring to run.
+0x8c3ad4   116  Bad_instruction_attempt_to_access              # Bad instruction (attempt to access ICCM).
+0x8c3fdc   326  BIND_Vring_Index_Vring_availability            # BIND:: Vring Index: %x. Vring availability: %x. Mtp/Bap availability: %x
+0x8c589c   154  No_CID_index_to_reuse                          # No CID index to reuse found.
+0x8c6c70   112  mem_pool_cpp                                   # mem_pool.cpp
+0x8c75a8   276  DELBA_frame_from_STA_for                       # DELBA frame from STA %d for TID %d.
+0x8c7884   126  STARTED_DELETE_BCAST_VRING_Vring               # STARTED DELETE BCAST VRING. Vring: %d, Pring: %d
+0x8c7c80   350  discovery_cpp                                  # discovery.cpp
+0x8c8220    66  Stack_dump_beginning_at_x                      # Stack dump beginning at 0x%x:
+0x8c8264    92  UCODE_Stack_dump_beginning_at                  # UCODE Stack dump beginning at 0x%x:
+0x8c82c0   352  Crash_TSF_curr_tsf_x                           # Crash TSF: curr tsf 0x%08x %08x
+0x8c8b8c   102  Removed_index_CID_from_ranking                 # Removed index CID %d from ranking list.
+0x8c9268   118  mem_pool_cpp_8c9268                            # mem_pool.cpp
+0x8c9e44    46  conn_mgr_cpp_8c9e44                            # conn_mgr.cpp
+0x8ca964   380  GET_STATUS_HAL                                 # *** GET STATUS HAL ***
+0x8cb274    76  HOST_EVENT_WMI_SET_SELECTED_RF_SECTOR_INDEX_   # <<---- [HOST EVENT] WMI_SET_SELECTED_RF_SECTOR_INDEX_DONE_EVENTID, status=%d
+0x8cba10   270  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x      # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8cbbc0   208  DO_WHILE_WITH_MAX_ITER_OCCUR                   # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cbd30    92  DO_WHILE_WITH_MAX_ITER_OCCUR_8cbd30            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd088    86  DO_WHILE_WITH_MAX_ITER_OCCUR_8cd088            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd0e0    66  DO_WHILE_WITH_MAX_ITER_OCCUR_8cd0e0            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd3e0   150  DO_WHILE_WITH_MAX_ITER_OCCUR_8cd3e0            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cd478   212  DO_WHILE_WITH_MAX_ITER_OCCUR_8cd478            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8ce044   132  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8ce044 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8cf1b8   236  DO_WHILE_WITH_MAX_ITER_OCCUR_8cf1b8            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8cfb40    82  LINK_STATS_PHY_INA_SYNC_CP_PHY_INA_SYNC_DP     # LINK_STATS PHY_INA_SYNC_CP=%d PHY_INA_SYNC_DP=%d
+0x8cfbc8    66  DO_WHILE_WITH_MAX_ITER_OCCUR_8cfbc8            # DO_WHILE_WITH_MAX_ITER OCCUR
+0x8d0f80   444  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8d0f80 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8d46c0    50  RF_RESET_DONE                                  # RF RESET DONE
+0x8d5428   196  Information_request_Ignored_sta_idx_isn        # Information request -Ignored sta_idx %d, isn't active.
+0x8d6028    40  pcie_device_power_if_init                      # pcie_device_power_if::init
+0x8d6a1c   160  Inject_event_to_Next_state                     # Inject %s event to %s. Next state: %s
+0x8d6c70   392  sta_psc_sm_IDLE                                # Received PSC RESP while sta_psc_sm::IDLE therefore IGNORING PSC RESP
+0x8d6df8   134  Operational_MBOX_init                          # Operational MBOX init
+0x8d6ea8   114  Debug_MBOX_init                                # Debug MBOX init
+0x8d7724    54  led_scheme_cpp                                 # led_scheme.cpp
+0x8d775c   116  led_scheme_cpp_8d775c                          # led_scheme.cpp
+0x8d7d1c    92  lm_if_cpp                                      # lm_if.cpp
+0x8d7f80   130  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8d7f80 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8d8004   114  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8d8004 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8d8078    60  AWAKE_PEERS_EVENT_awake_peers                  # AWAKE PEERS EVENT: awake peers vector = 0x%x , awake no tx peers vector = 0x%x, 
+0x8d8188   144  Discovery_ABFT_Notify_status_BF_DONE_OK        # Discovery ABFT Notify status %d (BF_DONE_OK = 1)
+0x8d865c   348  BTI_start_time_x_duration                      # [BTI] | start time 0x%08x%08x | duration %d 
+0x8d88e8   154  RS_DONE_CID_MCS                                # RS DONE: CID=%d MCS:%d
+0x8d8bf4   138  RESET_KEYS_event_handle_Sta_id                 # RESET_KEYS event handle Sta id %d 
+0x8d9c18    72  lm_if_cpp_8d9c18                               # lm_if.cpp
+0x8dc008    50  lm_if_cpp_8dc008                               # lm_if.cpp
+0x8dc264   320  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8dc264 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8dc544   282  PCP_Start_failed_MAC_address                   # PCP Start failed, MAC address error
+0x8dca18   102  TX_API_post_tx_payload                         # <<---- [HOST EVENT] WMI_TX_MGMT_PACKET_EVENTID TX_API::post_tx_payload() 0x%x by
+0x8dcdd8   106  DBG_AWAKE_PEERS_sw_vring_x                     # [DBG AWAKE PEERS] sw_vring=0x%02x | data_in_prev_bi=0x%02x | keep_alive=0x%02x |
+0x8dce44    94  About_to_print_ies                             # About to print ies:
+0x8dcef8   130  NNL_cid_tm_no_tx_ack_cnt                       # [NNL] | cid %d | tm_no_tx %d | ack_cnt %d
+0x8dcf7c   130  NNL_cid_ageing_ack_cnt                         # [NNL] | cid %d | ageing %d | ack_cnt %d
+0x8dd810    32  ps_connection_psc_req_rx_handler               # Ignoring ps_connection::psc_req_rx_handler
+0x8de824    50  lm_if_cpp_8de824                               # lm_if.cpp
+0x8e0ff4    82  pcp_psc_sm_send_psc_resp_flow                  # pcp_psc_sm::send_psc_resp_flow.
+0x8e1048   110  HOST_EVENT_WMI_RF_MGMT_STATUS_EVENTID_rf_sta   # <<---- [HOST EVENT] WMI_RF_MGMT_STATUS_EVENTID rf_status=%d
+0x8e1b34   128  networkType_WMI_NETTYPE_ADHOC                  # networkType = WMI_NETTYPE_ADHOC %x
+0x8e2ae8   624  LINK_STATS_TX_GOODPUT_RX_GOODPUT_PER           # LINK_STATS TX_GOODPUT=%d RX_GOODPUT=%d PER=%d
+0x8e2f2c    66  lm_if_cpp_8e2f2c                               # lm_if.cpp
+0x8e4894    82  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8e4894 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8e7774    58  Connect_IGNORED_due_to_RF                      # Connect IGNORED due to RF-KILL enabled, sending disconnect event
+0x8e788c    74  HOST_EVENT_WMI_LINK_MAINTAIN_CFG_READ_DONE_E   # <<---- [HOST EVENT] WMI_LINK_MAINTAIN_CFG_READ_DONE_EVENTID status=%d, cid=%d
+0x8e85b0   150  DO_WHILE_WITH_MAX_ITER_OCCUR_curr_blink_x_8e85b0 # DO_WHILE_WITH_MAX_ITER OCCUR curr_blink=0x%x
+0x8ea510    46  Config_Security_Mid_configured_m_wpa_offload   # Config Security Mid[%d] configured: m_wpa_offload = %x, auth_mode = %x
+0x8eac48   240  LLD_Link_Lost_Diagnostic_Part                  # =========== LLD(Link Lost Diagnostic Part 2)           =============
+0x8ead38   226  DEBUG_MAC_RX_CRC_OK_CRC_ERR                    # DEBUG MAC RX: CRC_OK=%d CRC_ERR= %d
+0x8ecd10   626  FIXED_MGMT_TX_Probe_resp                       # FIXED MGMT TX Probe resp use host SSID IE length %d total %d
+0x8ed87c    92  HOST_EVENT_WMI_READY_EVENTID_x1001_Notify      # HOST EVENT (WMI_READY_EVENTID=0x1001): Notify FW ready (is OOB = %d) Local MAC: 
+0x8edbbc    94  discovery_cpp_8edbbc                           # discovery.cpp
+0x8edc94   114  Initializing_uCode_interface                   # Initializing uCode interface
+0x8ede5c   188  LMAC_READY_driver_is_up_sts                    # LMAC READY :: driver_is_up_sts %x 
+0x8ef90c   368  PCIE_DEBUG_ring_x                              # PCIE DEBUG %d (ring#=%d): 0x%08X
+0x8efa7c   108  PCIE_DEBUG_INTERRUPT_port1_tx_fifo_pcpl_full   # PCIE DEBUG INTERRUPT port1_tx_fifo_pcpl_full_int (dbg_csu_lock=0x%X)
+0x8f01ac    94  discovery_cpp_8f01ac                           # discovery.cpp
+0x8f0ee0   376  SPI_READ_waited_usec_for                       # SPI READ: waited %d usec for interface !!!
+0x8f2ed0   864  Opening_sniffer_mode                           # Opening sniffer mode
+0x8f3430   312  SW_failed_TX_MGMT_too                          # SW failed TX MGMT: too big packet.
