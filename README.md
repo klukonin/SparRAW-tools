@@ -35,7 +35,7 @@ SparRAW/
 | `wil_brd.py` | разбор/сборка/починка `.brd` и `.fw` (контейнер записей драйвера) — см. `re/README.md` |
 | `wil_brd_regs.py` | board-файл как набор записей регистров |
 | `fw_strip_for_openwrt.py` | удаление вендорских записей 100/101/102 — образ для драйвера OpenWrt |
-| `npk_unpack.py`, `npk_decrypt.py` | распаковка и расшифровка npk (XOR-ключевой поток) |
+| `npk_unpack.py`, `npk_decrypt.py` | распаковка npk и снятие XOR-ключевого потока |
 | `wil_syms.py`, `gen_symbols_ld.py`, `asm_gate.py` | символы и гейт ассемблера |
 | `wmi.py`, `wiburn.py`, `sm_name_resolver.py` | WMI, ini-файлы wiburn, имена автоматов |
 | `ghidra/` | скрипты Ghidra ранней фазы разбора и их выходные таблицы; `ARC-module/` — процессорный модуль ARCompact (Ledger Donjon, SSTIC 2021), `install_arc.sh` ставит его в Ghidra 12.x |

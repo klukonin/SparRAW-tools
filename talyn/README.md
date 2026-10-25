@@ -8,6 +8,7 @@ Talyn по начинке почти Sparrow: fw и uc на том же ARC600, 
 | файл | что |
 |---|---|
 | `run_all.sh` | Ghidra headless (ARCompact:LE:32): проекты `proj/<образ>_{fw,uc}`, выгрузка `out/` |
+| `sp_run.sh` | то же для образов Sparrow (`seg/sp_*` → `out_sp/`): код fw/uc с 0x0, данные 0x800000 |
 | `run_pass2.sh` | дозапуск дизассемблера от ссылок на строки журнала (`seed/`), имена по строкам журнала, выгрузка `out3/` |
 | `scripts/` | скрипты Ghidra: сегменты (`addblocks.py`), затравки, имена, экспорт funcs/listing/decomp |
 | `names/fwlog_names.py`, `names/seedfilter.py` | имена функций по записям журнала fw/uc (limm 0x01000000\|смещение) |
